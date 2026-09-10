@@ -1,0 +1,532 @@
+ERMHDR	15.2	2023-07-07	Project	ADMIN	HP	dbxDatabaseNoName	Project Management	USD
+%T	BASELINE_IMPORT
+%F	export_flag	proj_id	proj_name	baseline_type	exists
+%R	Y	4780	Remodeling of Main Boulevard from Liberty to Kalma Chowk BL-1 rev		N
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	2	$	.	,	#1.1	(#1.1)	US Dollar	USD	3	1
+%R	10	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.077
+%R	11	2	A$	.	,	#1.1	(#1.1)	Australian Dollar	AUST	3	1.208
+%R	13	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	2.014
+%R	14	2	£	.	,	#1.1	(#1.1)	British Pound	U.K.	3	0.501762
+%R	15	2	CA$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.10573
+%R	16	2	Y	.	,	#1.1	(#1.1)	Chinese Yuan	CNY	3	7.694
+%R	17	2	€	.	,	#1.1	(#1.1)	EURO	EUR	3	0.739088
+%R	20	2	HK$	.	,	#1.1	(#1.1)	Hong Kong Dollar	HKD	3	7.81967
+%R	21	2	Rs	.	,	#1.1	(#1.1)	Indian Rupee	INR	3	40.67
+%R	23	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	120.167
+%R	24	2	K	.	,	#1.1	(#1.1)	Korean Won	KRW	3	924.743
+%R	25	2	N$	.	,	#1.1	(#1.1)	Mexican Peso	MXN	3	10.7938
+%R	26	2	R	.	,	#1.1	(#1.1)	Russian Rouble	RUB	3	25.8085
+%R	28	2	Sk	.	,	#1.1	(#1.1)	Swedish Krona	SEK	3	6.80579
+%R	29	2	kr	.	,	#1.1	(#1.1)	Swiss Franc	CHF	3	1.21864
+%R	30	2	NIS	.	,	#1.1	(#1.1)	Israel Shekel	ILS	3	3.96384
+%R	31	2	Rs.	.	,	#1.1	(#1.1)	Rupees	PKR	3	1
+%T	FINTMPL
+%F	fintmpl_id	fintmpl_name	default_flag
+%R	1	Calendar	Y
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	565			0	Enterprise	<HTML><BODY></BODY></HT
+%T	PROJECT
+%F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	fintmpl_id	last_baseline_update_date	cr_external_key	apply_actuals_date	location_id	loaded_scope_level	export_flag	new_fin_dates_id	baselines_to_export	baseline_names_to_export	next_data_date	close_period_flag	sum_refresh_date	trsrcsum_loaded	sumtask_loaded
+%R	370	1	Y	Y	Y	N	Y	N	N	Y	.	CP_Drtn	IMAMIA-01					640		1000	10	10	2	500		0	0.0000	2023-06-01 00:00	2023-06-01 00:00	2023-12-15 00:00	2023-12-15 00:00	2023-06-21 03:00			DT_FixedDUR2	A	OD0hid86IU+HbzNbAaxczQ	QT_Hour	ADMIN			COST_PER_QTY	N	Y	TT_Task	Y	CT_DrivPath	Y	Y	Y	Y	N	N	SL_Taskrsrc		1					7	Y								
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	rsrc_private	clndr_data
+%R	638	N	FWO			2017-07-03 00:00	CA_Base	8	48	204	2504	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()(      (0||0(s|08:00|f|16:00)())))    (0||2()(      (0||0(s|08:00|f|16:00)())))    (0||3()(      (0||0(s|08:00|f|16:00)())))    (0||4()(      (0||0(s|08:00|f|16:00)())))    (0||5()(      (0||0(s|08:00|f|16:00)())))    (0||6()())    (0||7()(      (0||0(s|08:00|f|16:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|36897)())    (0||1(d|36898)())    (0||2(d|36904)())    (0||3(d|36905)())    (0||4(d|36911)())    (0||5(d|36912)())    (0||6(d|36918)())    (0||7(d|36919)())    (0||8(d|36925)())    (0||9(d|36926)())    (0||10(d|36932)())    (0||11(d|36933)())    (0||12(d|36939)())    (0||13(d|36940)())    (0||14(d|36946)())    (0||15(d|36947)())    (0||16(d|36953)())    (0||17(d|36954)())    (0||18(d|36960)())    (0||19(d|36961)())    (0||20(d|36967)())    (0||21(d|36968)())    (0||22(d|36974)())    (0||23(d|36975)())    (0||24(d|36981)())    (0||25(d|36982)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||26(d|36983)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||27(d|36984)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||28(d|36985)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||29(d|36986)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||30(d|36987)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||31(d|36988)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||32(d|36989)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||33(d|36990)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||34(d|36991)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||35(d|36992)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||36(d|36993)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||37(d|36994)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||38(d|36995)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||39(d|36996)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||40(d|36997)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||41(d|36998)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||42(d|36999)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||43(d|37000)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||44(d|37001)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||45(d|37002)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||46(d|37003)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||47(d|37004)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||48(d|37005)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||49(d|37006)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||50(d|37007)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||51(d|37008)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||52(d|37009)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||53(d|37010)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||54(d|37011)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||55(d|40179)())    (0||56(d|40329)())    (0||57(d|40364)())    (0||58(d|40427)())    (0||59(d|40507)())    (0||60(d|40536)())    (0||61(d|40543)())    (0||62(d|40693)())    (0||63(d|40728)())    (0||64(d|40791)())    (0||65(d|40871)())    (0||66(d|40903)())    (0||67(d|40910)())    (0||68(d|41057)())    (0||69(d|41094)())    (0||70(d|41155)())    (0||71(d|41235)())    (0||72(d|41268)())    (0||73(d|41275)())    (0||74(d|41421)())    (0||75(d|41459)())    (0||76(d|41519)())    (0||77(d|41606)())    (0||78(d|41633)())    (0||79(d|42583)(      (0||0(s|00:00|f|00:30)())      (0||1(s|07:00|f|12:00)())      (0||2(s|13:00|f|17:30)())))    (0||80(d|43791)(      (0||0(s|08:00|f|16:00)())))    (0||81(d|43833)(      (0||0(s|08:00|f|16:00)())))    (0||82(d|43840)(      (0||0(s|08:00|f|16:00)())))    (0||83(d|43847)(      (0||0(s|08:00|f|16:00)())))    (0||84(d|43854)(      (0||0(s|08:00|f|16:00)())))    (0||85(d|43861)(      (0||0(s|08:00|f|16:00)())))))))
+%R	640	N	Imamia Flyover		638	2023-06-04 00:00	CA_Base	20	120	600	7300	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()())    (0||2()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||3()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||4()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||5()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||6()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||7()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|40179)())    (0||1(d|40329)())    (0||2(d|40364)())    (0||3(d|40427)())    (0||4(d|40507)())    (0||5(d|40536)())    (0||6(d|40543)())    (0||7(d|40693)())    (0||8(d|40728)())    (0||9(d|40791)())    (0||10(d|40871)())    (0||11(d|40903)())    (0||12(d|40910)())    (0||13(d|41057)())    (0||14(d|41094)())    (0||15(d|41155)())    (0||16(d|41235)())    (0||17(d|41268)())    (0||18(d|41275)())    (0||19(d|41421)())    (0||20(d|41459)())    (0||21(d|41519)())    (0||22(d|41606)())    (0||23(d|41633)())    (0||24(d|45081)(      (0||0(s|02:00|f|22:00)())))    (0||25(d|45088)(      (0||0(s|02:00|f|22:00)())))    (0||26(d|45089)(      (0||0(s|02:00|f|22:00)())))    (0||27(d|45090)(      (0||0(s|02:00|f|22:00)())))    (0||28(d|45091)(      (0||0(s|02:00|f|22:00)())))    (0||29(d|45092)(      (0||0(s|02:00|f|22:00)())))    (0||30(d|45093)(      (0||0(s|02:00|f|22:00)())))    (0||31(d|45094)(      (0||0(s|02:00|f|22:00)())))    (0||32(d|45095)(      (0||0(s|02:00|f|22:00)())))    (0||33(d|45102)(      (0||0(s|02:00|f|22:00)())))    (0||34(d|45105)())    (0||35(d|45106)())    (0||36(d|45107)())    (0||37(d|45108)(      (0||0(s|02:00|f|22:00)())))    (0||38(d|45109)(      (0||0(s|02:00|f|22:00)())))    (0||39(d|45116)(      (0||0(s|02:00|f|22:00)())))    (0||40(d|45123)(      (0||0(s|02:00|f|22:00)())))    (0||41(d|45130)(      (0||0(s|02:00|f|22:00)())))    (0||42(d|45134)())    (0||43(d|45135)())    (0||44(d|45137)(      (0||0(s|02:00|f|22:00)())))    (0||45(d|45144)(      (0||0(s|02:00|f|22:00)())))    (0||46(d|45151)(      (0||0(s|02:00|f|22:00)())))    (0||47(d|45152)())    (0||48(d|45158)(      (0||0(s|02:00|f|22:00)())))    (0||49(d|45165)(      (0||0(s|02:00|f|22:00)())))    (0||50(d|45172)(      (0||0(s|02:00|f|22:00)())))    (0||51(d|45179)(      (0||0(s|02:00|f|22:00)())))    (0||52(d|45186)(      (0||0(s|02:00|f|22:00)())))    (0||53(d|45193)(      (0||0(s|02:00|f|22:00)())))    (0||54(d|45195)())    (0||55(d|45200)(      (0||0(s|02:00|f|22:00)())))    (0||56(d|45207)(      (0||0(s|02:00|f|22:00)())))    (0||57(d|45214)(      (0||0(s|02:00|f|22:00)())))    (0||58(d|45221)(      (0||0(s|02:00|f|22:00)())))    (0||59(d|45228)(      (0||0(s|02:00|f|22:00)())))    (0||60(d|45235)(      (0||0(s|02:00|f|22:00)())))    (0||61(d|45242)(      (0||0(s|02:00|f|22:00)())))    (0||62(d|45249)(      (0||0(s|02:00|f|22:00)())))    (0||63(d|45256)(      (0||0(s|02:00|f|22:00)())))    (0||64(d|45263)(      (0||0(s|02:00|f|22:00)())))    (0||65(d|45270)(      (0||0(s|02:00|f|22:00)())))    (0||66(d|45277)(      (0||0(s|02:00|f|22:00)())))    (0||67(d|45284)(      (0||0(s|02:00|f|22:00)())))    (0||68(d|45285)())    (0||69(d|45291)(      (0||0(s|02:00|f|22:00)())))    (0||70(d|45298)(      (0||0(s|02:00|f|22:00)())))    (0||71(d|45305)(      (0||0(s|02:00|f|22:00)())))    (0||72(d|45312)(      (0||0(s|02:00|f|22:00)())))    (0||73(d|45319)(      (0||0(s|02:00|f|22:00)())))    (0||74(d|45326)(      (0||0(s|02:00|f|22:00)())))    (0||75(d|45333)(      (0||0(s|02:00|f|22:00)())))    (0||76(d|45340)(      (0||0(s|02:00|f|22:00)())))    (0||77(d|45347)(      (0||0(s|02:00|f|22:00)())))))))
+%R	641	N	(New Calendar)	370	640		CA_Project	20	120	600	7300	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()())    (0||2()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||3()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||4()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||5()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||6()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))    (0||7()(      (0||0(s|00:00|f|06:00)())      (0||1(s|08:00|f|18:00)())      (0||2(s|20:00|f|00:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|40179)())    (0||1(d|40329)())    (0||2(d|40364)())    (0||3(d|40427)())    (0||4(d|40507)())    (0||5(d|40536)())    (0||6(d|40543)())    (0||7(d|40693)())    (0||8(d|40728)())    (0||9(d|40791)())    (0||10(d|40871)())    (0||11(d|40903)())    (0||12(d|40910)())    (0||13(d|41057)())    (0||14(d|41094)())    (0||15(d|41155)())    (0||16(d|41235)())    (0||17(d|41268)())    (0||18(d|41275)())    (0||19(d|41421)())    (0||20(d|41459)())    (0||21(d|41519)())    (0||22(d|41606)())    (0||23(d|41633)())    (0||24(d|45105)())    (0||25(d|45106)())    (0||26(d|45107)())    (0||27(d|45108)())    (0||28(d|45134)())    (0||29(d|45135)())    (0||30(d|45152)())    (0||31(d|45195)())    (0||32(d|45285)())))))
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	370	SD_Both	N	Y	Y	N	FT_FF	rcal_Predecessor	Y	N	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		priority_type,ASC_BY_FIELD/ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	3682	370	565	100	1	Y	N	WS_Open	IMAMIA-01	CONSTRUCTION OF 8-LANE OVERHEADBRIDGE AT SHAHDARA		3680	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	27Z5Xw74IUO3J+onzwIV2A		
+%R	3683	370	565	100	1	N	N	WS_Open	2	Project Commencement		3682	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	4RarmhEjXkSu6TGhKz27DA	irkFx6buEkmIMzvWWOdt7w	
+%R	3684	370	565	200	1	N	N	WS_Open	8	Pre-Construction Phase		3682	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	dvQ/CHNMRU+jUGdAgCwWdA	UYatk6ZKl0OK5NDMvSoVZw	
+%R	3685	370	565	202	1	N	N	WS_Open	7	Moblization Phase		3682	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	VCtGC01+Kk6bPhpBNKHVhA	JehWfV9m70OhUS7oVRiM3w	
+%R	3686	370	565	204	1	N	N	WS_Open	6	Construction Work Milestone		3682	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	31uutDBo3Ui2eYVgvagAjQ	U4klO8zGL0SeHMet1cXMaA	
+%R	3687	370	565	301	1	N	N	WS_Open	9	Construction Phase		3682	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	BU4TV6A7xUS5uXftXOa2wQ	Yqjo6v9PEU+MpPb08cq4Vg	
+%R	3688	370	565	302	1	N	N	WS_Open	3	Bill no. 07 General Items		3682	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	4hniSX+qxEKSP59iW2zTmA	1xTp1KvmcUWM6HaO0FIDcQ	
+%R	3689	370	565	402	1	N	N	WS_Open	4	Project Completion and Handover		3682	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	zMCojHxrEUebbbXLV931UA	hsvRMNqqt0Gx8Po2dflfng	
+%R	3690	370	565	1	1	N	N	WS_Open	4	Pre-Requisites		3684	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	o9IbVdCrFk6LpqErTwRf7A	4J8o4IItRkW5mIUM+xFkVQ	
+%R	3691	370	565	2	1	N	N	WS_Open	1	Joint Survey		3684	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	PVffUCue8UyZZebbtXwfEg	e+V9mf3wOEKtIe3h6rbYEg	
+%R	3692	370	565	3	1	N	N	WS_Open	2	Method Statment		3684	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	gwMnNwA0EUGTJ0rj5lS7Tg	MRa4WqKgFEuhUXVw7M8BlQ	
+%R	3693	370	565	4	1	N	N	WS_Open	3	Mix Design		3684	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	nh7PO/Tcs0iynOCnchdl8Q	mdGmoesPB0Gpl/O4Kl4DqA	
+%R	3694	370	565	1	1	N	N	WS_Open	4	Contractor Staff, Office and Residence		3685	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	BDTlvk3kHEaq90S8ti0dXQ	D2vkMQ9bKUyDu8wmJ41ldA	
+%R	3695	370	565	2	1	N	N	WS_Open	1	Mobilization of Plants		3685	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	0I7umf5gWkaZzhaCs8Q81w	77bQgdFPyESLcxDm2VTNVg	
+%R	3696	370	565	3	1	N	N	WS_Open	2	Mobilization of Machinery		3685	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	gebGIdpdPUme8kS96rW7Vg	CWktWfZ6u02rliRFBKkwzw	
+%R	3697	370	565	4	1	N	N	WS_Open	3	Establishment of Material Yard		3685	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	JyE02/9DIEiGEWfRDt6XTQ	g8miZ+TzXE6MNhLMVh87XQ	
+%R	3698	370	565	1	1	N	N	WS_Open	4	Shop Drawings		3687	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	Fz8fCsnJJ0GkNXkITtehag	yQHHCU8NEUabRpSZLHpJFw	
+%R	3699	370	565	7	1	N	N	WS_Open	6	Service Road		3687	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	52piKLZ6hUuThQYgdQ/a0Q	grgliCCISkWpnDnmEqZ6cQ	
+%R	3700	370	565	4	1	N	N	WS_Open	5	Structure Flyover		3687	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	wOmrA90NLkyNfSEknD1FUQ	ao2LgVVWQEW+Hxomo0XkKw	
+%R	3701	370	565	5	1	N	N	WS_Open	3	Retaining Wall		3687	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	7nF6F97y7EuEyuWiwkqBsA	nX+BIi5TFUe8KdIExgaNQw	
+%R	3702	370	565	6	1	N	N	WS_Open	1	Road Works		3687	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	NN9hEo8+o0qo4/pdHrMMFg	vD5nF04wtUOevlTYFBSqpw	
+%R	3703	370	565	8	1	N	N	WS_Open	2	Ancillary Works		3687	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	qMJChrnnl0SYUqyqD8+HWg	UMaSleSV7EaI85onX7R+DQ	
+%R	3704	370	565	3	1	N	N	WS_Open	7	Diversion Works		3687	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	0p/j5E8jYkKTlWgkvnfbWQ		
+%R	3705	370	565	2	1	N	N	WS_Open	1	West Side Service Road		3699	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	WxSPxJFLsUS4nc87VAy6cQ	C2GdrNxElk+hfI0FLubBkQ	
+%R	3706	370	565	102	1	N	N	WS_Open	2	East Side Service Road		3699	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	7KZ3NAm360ufun7a4qHNfw	kVM7jWjnhkOidzNORgB6xQ	
+%R	3707	370	565	101	1	N	N	WS_Open	1	Sub Structure		3700	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	Kd2RCGNU+0i+gcFGpcD+NA	BOaYJC4CTk+oD3dEEciuRA	
+%R	3708	370	565	201	1	N	N	WS_Open	2	Super Structure		3700	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	6Si5YkFmvEKPegTUjG/vyg	zf111HbWFEyTLGkkGvYJPQ	
+%R	3709	370	565	301	1	N	N	WS_Open	1	Earthwork		3702	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	UoRU6yoTN0G1WzK876IQ+Q	f7Qq/0DQA0KIHX+kVeEChA	
+%R	3710	370	565	401	1	N	N	WS_Open	2	Subbase and Base Course		3702	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	RQO2NBZ/IUaxq94HvBELvw	quxhxSa0pkqjcC2EuNeGiA	
+%R	3711	370	565	501	1	N	N	WS_Open	3	Surface Course & Pavement		3702	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	kmchcMgC9kSKe280oTnFHg	oYKzkb8XGUiqJTpplprYig	
+%R	3712	370	565	1	1	N	N	WS_Open	3	New Jersey Barrier		3703	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	HkZr9TQBn0eGfd19CIRbCw	uNgpcxd490CDxAicFP+cuw	
+%R	3713	370	565	2	1	N	N	WS_Open	1	Traffic Road Signs		3703	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	j5uHGYmqKkCpITpXJtEfbw	y2dlM7vmdEuIULNZzz5e7Q	
+%R	3714	370	565	3	1	N	N	WS_Open	2	Pavement Marking and Studs		3703	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	WfKlt1m/DUyPaFBus9oVzw	wJT7uvuLoESlCcclyfoNiQ	
+%R	3715	370	565	2	1	N	N	WS_Open	1	Piles		3707	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	7g643IIOBUCfhesAxTyK6Q	ft1YKPzmt0qvhTLH3jaEWw	
+%R	3716	370	565	301	1	N	N	WS_Open	1	Pile Shaft		3708	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	uq5lQW9qZE27vVAfc8uUbQ	jBCuGWcv50ic8Gr+YhHuaw	
+%R	3717	370	565	401	1	N	N	WS_Open	2	Transom		3708	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	QmbCUvXf/0CAKQnGQcKrzA	1kGarcQL/0yJNvKnw9Lsvg	
+%R	3718	370	565	501	1	N	N	WS_Open	3	Girders		3708	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	z6d10gB0FkSONkzyauKasQ	nVRJui4uaEq4r9cj1odiXA	
+%R	3719	370	565	601	1	N	N	WS_Open	4	Deck Slab		3708	6	0.88	0.0000	0.0000			0			EC_Cmp_pct	EE_Rem_hr	4lxvk9b+90atZ4kVrUVYYA	J1aoMQ+sJUmcXMYyoylW4A	
+%T	ACTVTYPE
+%F	actv_code_type_id	actv_short_len	seq_num	actv_code_type	proj_id	wbs_id	actv_code_type_scope
+%R	205	7	0	Bill Wise	370		AS_Project
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	phys_complete_pct	rev_fdbk_flag	est_wt	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user	location_id
+%R	35845	370	3716	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1740	Pouring of Concrete Class A-3 for pier (Elevated)		140	0	700	0	700	700	700	0	0	0				2023-07-18 00:00	2023-08-25 00:00		2023-07-11 00:00	2023-08-18 00:00	2023-07-11 00:00	2023-08-18 00:00	2023-07-11 00:00	2023-08-18 00:00	2023-07-18 00:00	2023-08-25 00:00		PT_Normal					hdhlvx1bMk6FgYXhWfQrQA	quBVFqR7sUqXdcIfxsOmFw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35846	370	3717	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1750	Cutting and Fixing of Reinforcement as per AASHTO M31 grade 60		0	0	900	0	900	900	900	0	0	0				2023-07-31 00:00	2023-09-15 00:00		2023-07-31 00:00	2023-09-15 00:00	2023-07-31 00:00	2023-09-15 00:00	2023-07-31 00:00	2023-09-15 00:00	2023-07-31 00:00	2023-09-15 00:00		PT_Normal					6TWCTG608UKg028Iq/yQUQ	ewMNHvJtDE2MCI4bg5TN4g			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35847	370	3717	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1760	Pouring of Concrete Class A-3 for transom (Elevated)		0	0	900	0	900	900	900	0	0	0				2023-08-04 00:00	2023-09-19 00:00		2023-08-04 00:00	2023-09-19 00:00	2023-08-04 00:00	2023-09-19 00:00	2023-08-04 00:00	2023-09-19 00:00	2023-08-04 00:00	2023-09-19 00:00		PT_Normal					wc1b6gG02EO11N7TQSlvaw	1gVpfL/3oE+ZjI+29DA6vA			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35848	370	3718	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1770	Lean Concrete		664	0	200	0	200	200	200	0	0	0				2023-07-24 04:00	2023-08-05 04:00		2023-06-18 02:00	2023-06-28 00:00	2023-06-18 02:00	2023-06-28 00:00	2023-06-18 02:00	2023-06-28 00:00	2023-07-24 04:00	2023-08-05 04:00		PT_Normal					AbVly0P1BECvpLsRW4pjiA	8VUdp225oEa6px525sFStg			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35849	370	3718	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1780	Cutting and Fixing of Reinforcement as per AASHTO M31 grade 60 incl formwork		664	0	700	0	700	700	700	0	0	0				2023-07-24 14:00	2023-08-31 14:00		2023-06-18 10:00	2023-07-26 10:00	2023-06-18 10:00	2023-07-26 10:00	2023-06-18 10:00	2023-07-26 10:00	2023-07-24 14:00	2023-08-31 14:00		PT_Normal					SmHJVJ4AOUytbIvEC44oJg	dtPmf7vV8UyczXZwuqhw/Q			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35850	370	3718	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1790	Concrete Class D-2 (Girder)		664	0	700	0	700	700	700	0	0	0				2023-07-29 00:00	2023-09-03 00:00		2023-06-20 20:00	2023-07-30 18:00	2023-06-20 20:00	2023-07-30 18:00	2023-06-20 20:00	2023-07-30 18:00	2023-07-29 00:00	2023-09-03 00:00		PT_Normal					ISxZv1PWeUKukRNVi0VfnQ	qicLyeocL0KrLOzmS32nXg			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35851	370	3718	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1800	Pre-Stressing Wire Strand (12.7 mm dia)		664	664	700	0	700	700	700	0	0	0				2023-08-13 02:00	2023-09-17 22:00		2023-07-08 20:00	2023-08-15 18:00	2023-07-08 20:00	2023-08-15 18:00	2023-07-08 20:00	2023-08-15 18:00	2023-08-13 02:00	2023-09-17 22:00		PT_Normal					Vk/ZF1VRmUO+5D0/EH8GIw	5PW5papgy0C0+gBHcqgA4g			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35852	370	3718	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1810	Elastomeric Bearing Pad		0	0	160	0	160	160	160	0	0	0				2023-09-18 00:00	2023-09-26 00:00		2023-09-18 00:00	2023-09-26 00:00	2023-09-18 00:00	2023-09-26 00:00	2023-09-18 00:00	2023-09-26 00:00	2023-09-18 00:00	2023-09-26 00:00		PT_Normal					0qyMcB2jFEO0sDbbKVZdLA	gNAEoJ9b0US5tL+ffX+iEw			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35853	370	3718	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1820	Launching of Girder		0	0	600	0	600	600	600	0	0	0				2023-09-27 00:00	2023-10-27 00:00		2023-09-27 00:00	2023-10-27 00:00	2023-09-27 00:00	2023-10-27 00:00	2023-09-27 00:00	2023-10-27 00:00	2023-09-27 00:00	2023-10-27 00:00		PT_Normal					F0XY7NekJkmuXnt1j6TvUw	239PKOKWCkOb28k3VDuk9g			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35854	370	3719	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1830	Cutting and Fixing of  Reinforcement as per AASHTO M31 grade 60		0	0	700	0	700	700	700	0	0	0				2023-10-04 00:00	2023-11-08 00:00		2023-10-04 00:00	2023-11-08 00:00	2023-10-04 00:00	2023-11-08 00:00	2023-10-04 00:00	2023-11-08 00:00	2023-10-04 00:00	2023-11-08 00:00		PT_Normal					nWOqc0gsekWjEqfWviaiMw	acpp6SwpykCK9YSkN3uYNw			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35855	370	3719	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1840	Pouring of  Concrete Class A-3 for deck slab (incl app slab)		0	0	700	0	700	700	700	0	0	0				2023-10-08 02:00	2023-11-12 00:00		2023-10-08 02:00	2023-11-12 00:00	2023-10-08 02:00	2023-11-12 00:00	2023-10-08 02:00	2023-11-12 00:00	2023-10-08 02:00	2023-11-12 00:00		PT_Normal					p/ndgKmWmU6D1gkpUMkgDQ	5QcadKKBpU6GJRu+AO9WOQ			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35856	370	3719	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1850	Neoprene rubber joint filler with bitumastic joint seal		160	160	260	0	260	260	260	0	0	0				2023-11-15 00:00	2023-11-28 00:00		2023-11-07 00:00	2023-11-19 22:00	2023-11-07 00:00	2023-11-19 22:00	2023-11-07 00:00	2023-11-19 22:00	2023-11-15 00:00	2023-11-28 00:00		PT_Normal					KbX4d0P6T060Qul5hOaxzA	/Gp0b6+s3E2aY8J+pzv3bA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35857	370	3719	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1860	Expansion joint with two extruded aluminium alloy sections for 50 mm movement		0	0	240	0	240	240	240	0	0	0				2023-11-28 00:00	2023-12-10 00:00		2023-11-28 00:00	2023-12-10 00:00	2023-11-28 00:00	2023-12-10 00:00	2023-11-28 00:00	2023-12-10 00:00	2023-11-28 00:00	2023-12-10 00:00		PT_Normal					5M/wuSkKAUSk1cbkwGEw3g	qzNSq3pdFkaWoSs6duxBzg			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35858	370	3719	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1870	Jointing and fixing 4"" dia PVC drain pipe including		0	0	80	0	80	80	80	0	0	0				2023-12-09 00:00	2023-12-13 00:00		2023-12-09 00:00	2023-12-13 00:00	2023-12-09 00:00	2023-12-13 00:00	2023-12-09 00:00	2023-12-13 00:00	2023-12-09 00:00	2023-12-13 00:00		PT_Normal					XskzKRouV0645JN9dhEbdA	IIYkSbyEeEKrK2y9Z7fisg			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35859	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1900	Completion of Piles		2860	2860	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-07-21 00:00	2023-07-21 00:00	2023-07-21 00:00	2023-07-21 00:00	2023-07-21 00:00	2023-07-21 00:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					G7IszZofbE2BKS/qoIHlCg	nR0Ol92CwUykXtbVxYWPeg			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35860	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1910	Completion of Piers		2360	2360	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-08-18 00:00	2023-08-18 00:00	2023-08-18 00:00	2023-08-18 00:00	2023-08-18 00:00	2023-08-18 00:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					uz8w/Yljk0KUBDbVRGINyg	yKlnosHEQEiSg4VgO4F7Aw			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35861	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1920	Completion of Transom		1720	1720	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-09-19 00:00	2023-09-19 00:00	2023-09-19 00:00	2023-09-19 00:00	2023-09-19 00:00	2023-09-19 00:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					UkYfsvcAzEOdGnPn6252IQ	fEvbMGdADESJy5XE9Db7lQ			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35862	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1930	Completion of Deck Slab		40	40	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-12-13 00:00	2023-12-13 00:00	2023-12-13 00:00	2023-12-13 00:00	2023-12-13 00:00	2023-12-13 00:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					fy+gMQRUTUWVKjW+JCHc1g	3ZeVPvvh+EeO5k9A9NjliQ			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35863	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1940	Completion of Retaining Wall		2424	2424	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-08-13 18:00	2023-08-13 18:00	2023-08-13 18:00	2023-08-13 18:00	2023-08-13 18:00	2023-08-13 18:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					pLWfZZg0TE6QywdraltUqg	5g1BmtboQ02QHgngPIPL5A			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35864	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1950	Completion of Earthwork		1604	1604	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-09-24 18:00	2023-09-24 18:00	2023-09-24 18:00	2023-09-24 18:00	2023-09-24 18:00	2023-09-24 18:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					gttRf6zdW0+kN2fShEFsgA	dQYEuSWIhUux9BJO0do4xw			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35865	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1960	Completion of Subbase and Base Course		504	504	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-11-19 18:00	2023-11-19 18:00	2023-11-19 18:00	2023-11-19 18:00	2023-11-19 18:00	2023-11-19 18:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					D9cWP9+eZUmfiX0QWNjISQ	uBTTn8KqVUqGHGhZ9DKspg			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35866	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1970	Completion of Asphlat Work		260	260	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-12-02 00:00	2023-12-02 00:00	2023-12-02 00:00	2023-12-02 00:00	2023-12-02 00:00	2023-12-02 00:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					Dy59MB7Lr0WTFXiZLW93mw	naFrMzWZL0KAtIuH7Je6hw			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35867	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1980	Completion of Ancillary Work		40	40	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-12-13 00:00	2023-12-13 00:00	2023-12-13 00:00	2023-12-13 00:00	2023-12-13 00:00	2023-12-13 00:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					UlSenoEvvkaKBMbjeD0isQ	iSKB0gTcO0mKsh876SnKBQ			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35868	370	3690	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1990	Issuance of Construction Drawings		0	0	300	0	0	0	300	0	0	0				2023-06-01 00:00	2023-06-15 22:00		2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00		PT_Normal					vCteRFdeHU+SqOAO+xNNCA	mxh57vkiVUmJSvVqJunBEw			Y	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35869	370	3701	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1000	Structural Excavation in Common Material		44	0	240	0	240	240	240	0	0	0				2023-06-24 04:00	2023-07-09 06:00		2023-06-22 00:00	2023-07-07 00:00	2023-06-22 00:00	2023-07-07 00:00	2023-06-22 00:00	2023-07-07 00:00	2023-06-24 04:00	2023-07-09 06:00		PT_Normal					4MGwgzJiykCLNyLbc7ykNA	A0UsYpw+MUWKiytTR/qYcQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35870	370	3701	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1010	Lean Concrete		44	0	300	0	300	300	300	0	0	0				2023-07-01 06:00	2023-07-16 06:00		2023-06-26 00:00	2023-07-14 00:00	2023-06-26 00:00	2023-07-14 00:00	2023-06-26 00:00	2023-07-14 00:00	2023-07-01 06:00	2023-07-16 06:00		PT_Normal					ADjmJPlSuEuQsgc3cvL83Q	wufAy3h930yuE9Y+2yKSDA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35871	370	3701	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1020	Reinforcement as per AASHTO M-31 Grade 60		44	0	740	0	740	740	740	0	0	0				2023-07-04 10:00	2023-08-12 10:00		2023-07-02 06:00	2023-08-10 04:00	2023-07-02 06:00	2023-08-10 04:00	2023-07-02 06:00	2023-08-10 04:00	2023-07-04 10:00	2023-08-12 10:00		PT_Normal					y0v0Py47BESLBb6Q4/aQwQ	v3ivaD8hykuXaAoNDgPAlw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35872	370	3701	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1030	Concrete Class A3		44	0	740	0	740	740	740	0	0	0				2023-07-08 00:00	2023-08-17 00:00		2023-07-05 20:00	2023-08-13 18:00	2023-07-05 20:00	2023-08-13 18:00	2023-07-05 20:00	2023-08-13 18:00	2023-07-08 00:00	2023-08-17 00:00		PT_Normal					TjzLI4uM9Eeioo2qRDCGnw	yCFH2reGvUqkQ6Yb0hRRfA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35873	370	3701	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1040	Common Backfill		44	0	300	0	300	300	300	0	0	0				2023-08-12 00:00	2023-08-27 22:00		2023-08-09 20:00	2023-08-25 18:00	2023-08-09 20:00	2023-08-25 18:00	2023-08-09 20:00	2023-08-25 18:00	2023-08-12 00:00	2023-08-27 22:00		PT_Normal					MTTX03l+bUq4vzCZekf0kQ	/0uegQA6IUmIwZ3jZXde2g			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35874	370	3709	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1050	Removal of Trees 150-300mm Girth		2404	2404	40	0	40	40	40	0	0	0				2023-12-13 00:00	2023-12-15 00:00		2023-08-12 20:00	2023-08-15 20:00	2023-08-12 20:00	2023-08-15 18:00	2023-08-12 20:00	2023-08-15 18:00	2023-12-13 00:00	2023-12-15 00:00		PT_Normal					Nvg6G9TxmEOf5TbVHYvt2A	dhchqoY9EkGf5kR0KjL/9w			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35875	370	3709	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1060	Excavate unsuitable Common Material		44	0	300	0	300	300	300	0	0	0				2023-08-28 00:00	2023-09-12 00:00		2023-08-25 20:00	2023-09-09 18:00	2023-08-25 20:00	2023-09-09 18:00	2023-08-25 20:00	2023-09-09 18:00	2023-08-28 00:00	2023-09-12 00:00		PT_Normal					gEszi7q5I06vwo+iOXeQ2g	e9B9ew2TqkCQAYZIc+RcpA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35876	370	3709	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1070	Formation of Embankment from borrow exacvation in Common Material		44	0	500	0	500	500	500	0	0	0				2023-09-02 00:00	2023-09-28 00:00		2023-08-30 20:00	2023-09-24 18:00	2023-08-30 20:00	2023-09-24 18:00	2023-08-30 20:00	2023-09-24 18:00	2023-09-02 00:00	2023-09-28 00:00		PT_Normal					1aUyt2L2N0WdxDcL0ukxyA	8Y57qwZT8UyGmCsv6GHG4w			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35877	370	3709	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1080	Formation of Embankment from Structural exacvation in Common Material		104	0	500	0	500	500	500	0	0	0				2023-09-05 00:00	2023-10-01 00:00		2023-08-30 20:00	2023-09-24 18:00	2023-08-30 20:00	2023-09-24 18:00	2023-08-30 20:00	2023-09-24 18:00	2023-09-05 00:00	2023-10-01 00:00		PT_Normal					1Gu1jxOPwUKp3iQWydxE0A	jj2+ks8adUOTZd9mH1UKuA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35878	370	3710	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1090	Improved Subgrade		44	0	400	0	400	400	400	0	0	0				2023-09-23 00:00	2023-10-14 00:00		2023-09-20 20:00	2023-10-11 18:00	2023-09-20 20:00	2023-10-11 18:00	2023-09-20 20:00	2023-10-11 18:00	2023-09-23 00:00	2023-10-14 00:00		PT_Normal					wcUgnQ3YXEiEtdPLz7RbXg	FP9+d/sv6UiIMDMya8MPyQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35879	370	3710	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1100	Granular Subbase		44	0	400	0	400	400	400	0	0	0				2023-09-24 02:00	2023-10-15 00:00		2023-09-21 20:00	2023-10-12 18:00	2023-09-21 20:00	2023-10-12 18:00	2023-09-21 20:00	2023-10-12 18:00	2023-09-24 02:00	2023-10-15 00:00		PT_Normal					tJtKbx56okiUnE5LfhzfAg	d8S4mporYUmw28Chxg8QOA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35880	370	3710	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1110	Aggregate Base Course		44	0	460	0	460	460	460	0	0	0				2023-09-27 00:00	2023-10-20 00:00		2023-09-23 20:00	2023-10-17 18:00	2023-09-23 20:00	2023-10-17 18:00	2023-09-23 20:00	2023-10-17 18:00	2023-09-27 00:00	2023-10-20 00:00		PT_Normal					yY8yYPERikGN6lVmeQKOHw	ZSE4w1NJmEyiopX3M9npIg			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35881	370	3711	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1120	Asphaltic Base Course Plant mix (Class A)		44	0	360	0	360	360	360	0	0	0				2023-11-04 00:00	2023-11-22 00:00		2023-11-01 20:00	2023-11-19 18:00	2023-11-01 20:00	2023-11-19 18:00	2023-11-01 20:00	2023-11-19 18:00	2023-11-04 00:00	2023-11-22 00:00		PT_Normal					zvikbfPy40OC7v3HXhSzEg	8nI24GM44Uy+kMSLlVvcEA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35882	370	3699	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2121	Breaking of Existing Road Pavement Structure		64	0	160	0	160	160	160	0	0	0				2023-10-19 00:00	2023-10-27 00:00		2023-10-15 18:00	2023-10-23 18:00	2023-10-15 18:00	2023-10-23 18:00	2023-10-15 18:00	2023-10-23 18:00	2023-10-19 00:00	2023-10-27 00:00		PT_Normal					DYV1msncCU2X9XpnSVXYig	q9fUYqoMRU2/1qWJSRKFWw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35883	370	3699	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2122	Scarification of Existing Road Pavement		64	0	160	0	160	160	160	0	0	0				2023-10-19 00:00	2023-10-27 00:00		2023-10-15 18:00	2023-10-23 18:00	2023-10-15 18:00	2023-10-23 18:00	2023-10-15 18:00	2023-10-23 18:00	2023-10-19 00:00	2023-10-27 00:00		PT_Normal					NgStXEBP2EyIVlX3Q/kxqg	PNb+X5ZMNEiog8noc5E3gg			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35884	370	3711	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1170	Asphalt concrete for wearing course (Class A)		0	0	220	0	220	220	220	0	0	0				2023-11-21 00:00	2023-12-02 00:00		2023-11-21 00:00	2023-12-02 00:00	2023-11-21 00:00	2023-12-02 00:00	2023-11-21 00:00	2023-12-02 00:00	2023-11-21 00:00	2023-12-02 00:00		PT_Normal					peaT/hM1MUySwsx7oL4dJQ	dHEY3he4dkWVP87egV+19g			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35885	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1180	Provision of Survey Equipment and allied instruments		140	0	200	0	200	200	200	0	0	0				2023-06-08 00:00	2023-06-17 22:00		2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-08 00:00	2023-06-17 22:00		PT_Normal					0lW60SxY2k+UdB9VhiVw+g	ureM3Fecz0GLPhpHx5IC0w			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35886	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1190	Maintenance of survey instrument and provide teams for survey		140	140	3600	0	3600	3600	3600	0	0	0				2023-06-09 00:00	2023-12-13 00:00		2023-06-02 00:00	2023-12-06 00:00	2023-06-02 00:00	2023-12-06 00:00	2023-06-02 00:00	2023-12-06 00:00	2023-06-09 00:00	2023-12-13 00:00		PT_Normal					3A0CSiwvjUup7+tbRPUo6A	Qn3vKJ4dyUKj5Lu24oXgpQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35887	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1200	Provide Engineers's and Employer's Representative rental Field office		3560	0	160	0	160	160	160	0	0	0				2023-12-03 02:00	2023-12-10 22:00		2023-06-01 00:00	2023-06-09 00:00	2023-06-01 00:00	2023-06-09 00:00	2023-06-01 00:00	2023-06-09 00:00	2023-12-03 02:00	2023-12-10 22:00		PT_Normal					JHkKJK2sV0WlyE/ktz50MA	7ak0EGikF0aX79rihWY4LQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35888	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1210	Provide Engineers's and Employer's Representative rental residential accomodation		380	0	200	0	200	200	200	0	0	0				2023-06-20 00:00	2023-07-02 22:00		2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-20 00:00	2023-07-02 22:00		PT_Normal					rHL7YkgzuEyiCWZDfjISlA	bnjHK51rNU+7RoXApTFTpw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35889	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1220	Furnish and Equip Employer's/Engineer's representative field offices, residence		380	0	380	0	380	380	380	0	0	0				2023-06-20 00:00	2023-07-12 00:00		2023-06-01 00:00	2023-06-20 00:00	2023-06-01 00:00	2023-06-20 00:00	2023-06-01 00:00	2023-06-20 00:00	2023-06-20 00:00	2023-07-12 00:00		PT_Normal					oOg43xRaZEO/xINOe/fONQ	dkF2gQIfPUquU/0bXZ8U3Q			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35890	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1230	Maintenance of Engineer`s and Employer's representative Field office, residence		380	380	3000	0	3	3	3000	0	0	0				2023-07-12 00:00	2023-12-13 00:00		2023-06-20 00:00	2023-11-24 00:00	2023-06-20 00:00	2023-11-24 00:00	2023-06-20 00:00	2023-11-24 00:00	2023-07-12 00:00	2023-12-13 00:00		PT_Normal					BcSgDVGg8k+SyULhrjIS+A	btVevIRU5ES71lYDYJOb9g			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35891	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1240	Provide Material testing laboratory		3460	3460	300	0	300	300	300	0	0	0				2023-11-28 00:00	2023-12-13 00:00		2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-11-28 00:00	2023-12-13 00:00		PT_Normal					gc473/lk2E6gGeACHp6yfw	SWW+fpv9LU20ffHBh2NVnw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35892	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1250	Equip & Furnish Material testing laboratory		380	0	300	0	300	300	300	0	0	0				2023-06-20 00:00	2023-07-08 00:00		2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-20 00:00	2023-07-08 00:00		PT_Normal					537ytnRv20u6tFjtDQsEzQ	5depo7SopEmba1cdtINwRw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35893	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1260	Maintain Laboratory		380	380	3380	0	3380	3380	3380	0	0	0				2023-06-20 00:00	2023-12-13 00:00		2023-06-01 00:00	2023-11-24 00:00	2023-06-01 00:00	2023-11-24 00:00	2023-06-01 00:00	2023-11-24 00:00	2023-06-20 00:00	2023-12-13 00:00		PT_Normal					qOjBhpnpqEWkIesR0d6HAA	vV9MawxVoU2H2gNX9r7axg			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35894	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1270	Provide vehicles for Engineer and Employer (Toyota Corolla Gli 1.3)		160	0	200	0	200	200	200	0	0	0				2023-06-09 00:00	2023-06-18 22:00		2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-09 00:00	2023-06-18 22:00		PT_Normal					gRARn4CwOk+pGkqGWFhWhQ	L06EYUDIuE245NfBhtNMAQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35895	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1280	Provide vehicles for Engineer and Employer (Toyota Hilux 4x2 Single Cab		160	0	200	0	200	200	200	0	0	0				2023-06-09 00:00	2023-06-18 22:00		2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-09 00:00	2023-06-18 22:00		PT_Normal					7qMdr2tCkUSDrIaiM/Vt3w	zo0Q9k/ockCoS4Ry0YFSnQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35896	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1290	Running and maintenance of Engineer's and Employer's Transport		160	160	3600	0	3600	3600	3600	0	0	0				2023-06-09 00:00	2023-12-13 00:00		2023-06-01 00:00	2023-12-05 00:00	2023-06-01 00:00	2023-12-05 00:00	2023-06-01 00:00	2023-12-05 00:00	2023-06-09 00:00	2023-12-13 00:00		PT_Normal					EgV397F9gUC+v5Ug3v9LbQ	W/dvx7/oOUOu5z36Hs/8eQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35897	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1300	Employing Trainee Engineer's including Boarding, Lodging and related facilities to the Trainee Engineers		160	160	3600	0	3600	3600	3600	0	0	0				2023-06-09 00:00	2023-12-13 00:00		2023-06-01 00:00	2023-12-05 00:00	2023-06-01 00:00	2023-12-05 00:00	2023-06-01 00:00	2023-12-05 00:00	2023-06-09 00:00	2023-12-13 00:00		PT_Normal					Y2fJvT6Qx0emqqhIf6QiZQ	H5Xw2V4dZUWl3uSoyDnifQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35898	370	3688	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1310	Control and Protection of Traffic		160	160	3600	0	3600	3600	3600	0	0	0				2023-06-09 00:00	2023-12-13 00:00		2023-06-01 00:00	2023-12-05 00:00	2023-06-01 00:00	2023-12-05 00:00	2023-06-01 00:00	2023-12-05 00:00	2023-06-09 00:00	2023-12-13 00:00		PT_Normal					Gu1tiGSxSkeRl11GKcYp0w	ChjzgKc8DUqnyy9ywRcLjw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35899	370	3713	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1330	Traffic Road Sign Category 1		44	0	460	0	460	460	460	0	0	0				2023-11-20 00:00	2023-12-13 00:00		2023-11-17 20:00	2023-12-10 18:00	2023-11-17 20:00	2023-12-10 18:00	2023-11-17 20:00	2023-12-10 18:00	2023-11-20 00:00	2023-12-13 00:00		PT_Normal					+tQfAZBkrUmfB9dfmPLcNw	Ldxu9t1XlUOCHqSiNeOYmw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35900	370	3713	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1340	Traffic Road Sign Category 2		44	0	460	0	460	460	460	0	0	0				2023-11-20 00:00	2023-12-13 00:00		2023-11-17 20:00	2023-12-10 18:00	2023-11-17 20:00	2023-12-10 18:00	2023-11-17 20:00	2023-12-10 18:00	2023-11-20 00:00	2023-12-13 00:00		PT_Normal					uOgNKva1yEiKbVjpKZMGPA	ec0d7YrqoE+pOCo7Z8cCVg			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35901	370	3713	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1350	Traffic Road Sign Category 3b		44	0	460	0	460	460	460	0	0	0				2023-11-20 00:00	2023-12-13 00:00		2023-11-17 20:00	2023-12-10 18:00	2023-11-17 20:00	2023-12-10 18:00	2023-11-17 20:00	2023-12-10 18:00	2023-11-20 00:00	2023-12-13 00:00		PT_Normal					YHNc5P+HNUSPO4oM5yKN/g	Qxisilq2SEeNK3M0+qOmTA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35902	370	3713	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1360	Traffic Road Sign Category 3c		44	44	460	0	460	460	460	0	0	0				2023-11-20 00:00	2023-12-13 00:00		2023-11-17 20:00	2023-12-10 18:00	2023-11-17 20:00	2023-12-10 18:00	2023-11-17 20:00	2023-12-10 18:00	2023-11-20 00:00	2023-12-13 00:00		PT_Normal					/y8hkpkU8U+2JysZm1qjhQ	3gpmM2Him0aHxW8QVJbDGw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35903	370	3714	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1370	Pavement markings with white thermoplastic paint Service Roads (Continuous 20 cm)		0	0	180	0	180	180	180	0	0	0				2023-12-04 00:00	2023-12-13 00:00		2023-12-04 00:00	2023-12-13 00:00	2023-12-04 00:00	2023-12-13 00:00	2023-12-04 00:00	2023-12-13 00:00	2023-12-04 00:00	2023-12-13 00:00		PT_Normal					uq/OnWnVA0uMJycfIDK4eQ	Cw8rUqVDe0G+AemA0AEMDg			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35904	370	3714	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1380	Pavement markings with white thermoplastic paint Service Roads (Broken 20 cm)		0	0	180	0	180	180	180	0	0	0				2023-12-04 00:00	2023-12-13 00:00		2023-12-04 00:00	2023-12-13 00:00	2023-12-04 00:00	2023-12-13 00:00	2023-12-04 00:00	2023-12-13 00:00	2023-12-04 00:00	2023-12-13 00:00		PT_Normal					YuvJ4mosV065khO1cj7I7Q	07oU1CxEtUeO0rLyvtcwtw			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35905	370	3714	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1390	Reflectorised Aluminium Pavement Stud raised profile type - Double (Red / Green / White / Amber color)		0	0	180	0	180	180	180	0	0	0				2023-12-04 00:00	2023-12-13 00:00		2023-12-04 00:00	2023-12-13 00:00	2023-12-04 00:00	2023-12-13 00:00	2023-12-04 00:00	2023-12-13 00:00	2023-12-04 00:00	2023-12-13 00:00		PT_Normal					K9OxqKaXQEyL1IxgsjZ9Jg	qP+C0hR2/UiT+9hl/YIG7w			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35906	370	3712	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1400	Dismantling of Structure and Obstractions		684	684	140	0	140	140	140	0	0	0				2023-12-06 00:00	2023-12-13 00:00		2023-11-01 20:00	2023-11-08 18:00	2023-11-01 20:00	2023-11-08 18:00	2023-11-01 20:00	2023-11-08 18:00	2023-12-06 00:00	2023-12-13 00:00		PT_Normal					cRgnC8g8pEC6iQLypZKcpQ	JUbRDpjuD02EdveJ5HEitA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35907	370	3712	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1410	RCC New Jersey Barrier (In-situ) for median ; double face (including reinforcement)		0	0	240	0	240	240	240	0	0	0				2023-11-25 00:00	2023-12-07 00:00		2023-11-25 00:00	2023-12-07 00:00	2023-11-25 00:00	2023-12-07 00:00	2023-11-25 00:00	2023-12-07 00:00	2023-11-25 00:00	2023-12-07 00:00		PT_Normal					gSdkoe62ZEGqBAC7xFWlgA	YZeAc+i5kke0/nKTc46Oyg			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35908	370	3712	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1420	Reinforcement as per AASHTO M31 grade 60 (Flyover)		0	0	240	0	240	240	240	0	0	0				2023-11-27 00:00	2023-12-09 00:00		2023-11-27 00:00	2023-12-09 00:00	2023-11-27 00:00	2023-12-09 00:00	2023-11-27 00:00	2023-12-09 00:00	2023-11-27 00:00	2023-12-09 00:00		PT_Normal					+jWqTYjbbkiGIvxNEqXevA	1MHrh1oLVE+N5ad/HcscbQ			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35909	370	3712	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1430	Concrete Class A-3 for Barriers (Flyover)		0	0	300	0	300	300	300	0	0	0				2023-11-28 00:00	2023-12-13 00:00		2023-11-28 00:00	2023-12-13 00:00	2023-11-28 00:00	2023-12-13 00:00	2023-11-28 00:00	2023-12-13 00:00	2023-11-28 00:00	2023-12-13 00:00		PT_Normal					2WS6OxNCEEmF2GLvkNQUYg	pqXX+tTs80+H7wiQCf7kHg			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35910	370	3712	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1440	Concrete Class-B		0	0	220	0	220	220	220	0	0	0				2023-12-02 00:00	2023-12-13 00:00		2023-12-02 00:00	2023-12-13 00:00	2023-12-02 00:00	2023-12-13 00:00	2023-12-02 00:00	2023-12-13 00:00	2023-12-02 00:00	2023-12-13 00:00		PT_Normal					3/siB+XWXUqwdZAgVmNYdA	NjI/sD/Vd0O2+WH0X8dFlw			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35911	370	3712	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1460	Steel Fence over New Jersey Barrier		0	0	240	0	240	240	240	0	0	0				2023-12-01 00:00	2023-12-13 00:00		2023-12-01 00:00	2023-12-13 00:00	2023-12-01 00:00	2023-12-13 00:00	2023-12-01 00:00	2023-12-13 00:00	2023-12-01 00:00	2023-12-13 00:00		PT_Normal					sxjzEhvmB0+/AlxuhRnMgA	X3+Fgg/wi0i4epQ9WFryMQ			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35912	370	3683	640	0	N	1	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	TK_NotStart	A1470	Project Commencement		0	0	0	0	0	0	0	0	0	0	2023-06-15 00:00			2023-06-15 02:00	2023-06-15 02:00		2023-06-15 02:00	2023-06-15 02:00	2023-06-15 02:00	2023-06-15 02:00	2023-06-15 02:00	2023-06-15 02:00	2023-06-15 02:00	2023-06-15 02:00	CS_MSOA	PT_Normal					EKoscyjOikCmv9J9+trqag	qRtrOJXI+E2cOlmIZC8tcg			Y	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35913	370	3683	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A1480	Project Completion		0	0	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-12-15 00:00	2023-12-15 00:00	2023-12-15 00:00	2023-12-15 00:00	2023-12-15 00:00	2023-12-15 00:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					NiW7DpvrAEusW/YCyAdNaQ	acPCxzMAVkunnZz/UMQn8Q			Y	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35914	370	3694	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1490	Establisment of Contactor Residence and Office		3560	0	200	0	0	0	200	0	0	0				2023-12-03 02:00	2023-12-13 00:00		2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-12-03 02:00	2023-12-13 00:00		PT_Normal					9ijV1hrw9UuIHWKECLIAmA	7rQTGArxw02MvzoLVH+2mA			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35915	370	3694	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1500	Mobilization of Contractor Staff		3560	3560	200	0	0	0	200	0	0	0				2023-12-03 02:00	2023-12-13 00:00		2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-12-03 02:00	2023-12-13 00:00		PT_Normal					U83kBViGnE2OK1KqfSafiw	rsCe1PewBEm3XinRaJ+v8g			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35916	370	3695	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1510	Mobilization and Erection of Batching Plant		3460	3460	300	0	0	0	300	0	0	0				2023-11-28 00:00	2023-12-13 00:00		2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-11-28 00:00	2023-12-13 00:00		PT_Normal					mCS1KnYQSEKgmebsmUkpxw	Xn3nE9OJa0Wy24kaEEl4XQ			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35917	370	3696	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1520	Mobilization of Construction Machinery at Site		3560	3560	200	0	0	0	200	0	0	0				2023-12-03 02:00	2023-12-13 00:00		2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-12-03 02:00	2023-12-13 00:00		PT_Normal					6XXGNs5YO0+c1kZ62jEEQw	OOdJ1mjTpkiZjArel6F8OA			N	0	0			2023-06-21 03:00	2023-07-04 02:05	NotPrmUser	NotPrmUser	
+%R	35918	370	3697	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1530	Estab of Material Yard		3460	3460	300	0	0	0	300	0	0	0				2023-11-28 00:00	2023-12-13 00:00		2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-11-28 00:00	2023-12-13 00:00		PT_Normal					RHioz7+fCU6lKY30MguoAA	FAR6J1LjZESVBisU9SMx8A			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35919	370	3697	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1540	Estab of Steel Yard		3460	3460	300	0	0	0	300	0	0	0				2023-11-28 00:00	2023-12-13 00:00		2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-11-28 00:00	2023-12-13 00:00		PT_Normal					ffiHhg9CMEuA2+3obIU2Eg	8fpkNom0tEedNeKjmcWifA			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35920	370	3691	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1550	Conducting Joint Survey		3560	3560	200	0	0	0	200	0	0	0				2023-12-03 02:00	2023-12-13 00:00		2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-06-01 00:00	2023-06-11 00:00	2023-12-03 02:00	2023-12-13 00:00		PT_Normal					N13YWBzRwUuMt85WfXQGPw	zoLMoBMV50+aFsHpT7Ngxg			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35921	370	3692	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1560	Submission of Method Statement for Construction Works		3220	0	300	0	0	0	300	0	0	0				2023-11-16 00:00	2023-12-01 00:00		2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-11-16 00:00	2023-12-01 00:00		PT_Normal					7dMBMwDMoUeyKxjW5k1q2g	yt89+3yOIUSI9J6ckIvxNQ			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35922	370	3692	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1570	Approval of Method Statement for Construction  Works		3220	0	300	0	0	0	300	0	0	0				2023-11-19 02:00	2023-12-03 22:00		2023-06-04 02:00	2023-06-18 22:00	2023-06-04 02:00	2023-06-18 22:00	2023-06-04 02:00	2023-06-18 22:00	2023-11-19 02:00	2023-12-03 22:00		PT_Normal					+j7MbZxwjUqDHvj8H56Mxg	YKF5v2YR90aKqsWE4eKWDA			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35923	370	3693	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1580	Submission of Mix Design of Concrete		3220	0	200	0	0	0	200	0	0	0				2023-11-20 00:00	2023-11-30 00:00		2023-06-05 00:00	2023-06-14 22:00	2023-06-05 00:00	2023-06-14 22:00	2023-06-05 00:00	2023-06-14 22:00	2023-11-20 00:00	2023-11-30 00:00		PT_Normal					Oa7jZHixSUW+1ttv7IIaOw	G2O9XwDLyEamuZDmCUchhQ			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35924	370	3693	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1590	Approval of Mix Design of Concrete		3220	0	200	0	0	0	200	0	0	0				2023-11-21 00:00	2023-12-01 00:00		2023-06-06 00:00	2023-06-15 22:00	2023-06-06 00:00	2023-06-15 22:00	2023-06-06 00:00	2023-06-15 22:00	2023-11-21 00:00	2023-12-01 00:00		PT_Normal					wi+DAzXlh0qNGbULvUckHg	fNISBskAYUCJdcTGFWI+DA			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35925	370	3693	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1600	Submission of Job Mix Formula for Asphlat works		3220	0	200	0	0	0	200	0	0	0				2023-12-02 00:00	2023-12-12 00:00		2023-06-17 02:00	2023-06-27 00:00	2023-06-17 02:00	2023-06-27 00:00	2023-06-17 02:00	2023-06-27 00:00	2023-12-02 00:00	2023-12-12 00:00		PT_Normal					8AHYbVAFHkOZScO3aoA9jQ	r0sdhNUuXkScF3IhMkN5vw			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35926	370	3693	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1610	Approval of Job Mix Formula for Asphlat works		3220	3220	200	0	0	0	200	0	0	0				2023-12-03 02:00	2023-12-13 00:00		2023-06-18 02:00	2023-06-28 00:00	2023-06-18 02:00	2023-06-28 00:00	2023-06-18 02:00	2023-06-28 00:00	2023-12-03 02:00	2023-12-13 00:00		PT_Normal					REgqyiLCaE64qpki/6SyBw	/nhi+Pwo3ES85+q1BLDxYA			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35927	370	3698	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1620	Submission of Shop Drawings		0	0	900	0	0	0	900	0	0	0				2023-06-17 02:00	2023-08-06 00:00		2023-06-17 02:00	2023-08-06 00:00	2023-06-17 02:00	2023-08-06 00:00	2023-06-17 02:00	2023-08-06 00:00	2023-06-17 02:00	2023-08-06 00:00		PT_Normal					CULSpz/s1EeulUxxf+fKlw	LZfz2jaqd0Oy/kL/X7IJ8Q			Y	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35928	370	3698	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1630	Approval of Shop Drawings		0	0	900	0	0	0	900	0	0	0				2023-06-17 02:00	2023-08-06 00:00		2023-06-17 02:00	2023-08-06 00:00	2023-06-17 02:00	2023-08-06 00:00	2023-06-17 02:00	2023-08-06 00:00	2023-06-17 02:00	2023-08-06 00:00		PT_Normal					asMzq8Q54Uu90A2mORqrPQ	GYRaTzOiCk+4i51Cu5ZcCQ			Y	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35929	370	3715	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1650	Cast in place piles in normal soil (boring only) incl test pile		0	0	540	0	540	540	540	0	0	0				2023-06-17 02:00	2023-07-16 22:00		2023-06-17 02:00	2023-07-16 22:00	2023-06-17 02:00	2023-07-16 22:00	2023-06-17 02:00	2023-07-16 22:00	2023-06-17 02:00	2023-07-16 22:00		PT_Normal					Nn2f6aZ6c0KkgmCv2M2OVQ	qw5h8w1MoEaRvRA2cLjbWA			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35930	370	3715	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1660	Cutting and Fixing of Reinforcement as per AASHTO M31 grade 60		0	0	540	0	540	540	540	0	0	0				2023-06-18 02:00	2023-07-18 00:00		2023-06-18 02:00	2023-07-18 00:00	2023-06-18 02:00	2023-07-18 00:00	2023-06-18 02:00	2023-07-18 00:00	2023-06-18 02:00	2023-07-18 00:00		PT_Normal					ocjlLq3OoUCbr/XYDuOdzw	ccoOB40wYEGwPiYt9KqXBg			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35931	370	3715	640	0	N	1	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	A1670	Pouring of Concrete Class A-3 for pier piles(Under Ground)		0	0	540	0	540	540	540	0	0	0				2023-06-21 00:00	2023-07-21 00:00		2023-06-21 00:00	2023-07-21 00:00	2023-06-21 00:00	2023-07-21 00:00	2023-06-21 00:00	2023-07-21 00:00	2023-06-21 00:00	2023-07-21 00:00		PT_Normal					xazI6/KALUiwXWvV1e/CUQ	SxvEsFNed0mfYQF/3hEKFw			Y	0	0			2023-06-21 03:00	2023-07-07 03:09	NotPrmUser	NotPrmUser	
+%R	35932	370	3716	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1730	Cutting and Fixing of Reinforcement as per AASHTO M31 grade 60		0	0	700	0	700	700	700	0	0	0				2023-07-10 00:00	2023-08-17 00:00		2023-07-10 00:00	2023-08-17 00:00	2023-07-10 00:00	2023-08-17 00:00	2023-07-10 00:00	2023-08-17 00:00	2023-07-10 00:00	2023-08-17 00:00		PT_Normal					NhdAD5asTUyz968uwLpi3A	BLWuSYw6ZkWzbF3nONIbSg			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35933	370	3690	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2000	NOC from Railway		1920	1920	300	0	0	0	300	0	0	0				2023-09-11 00:00	2023-09-26 00:00		2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-09-11 00:00	2023-09-26 00:00		PT_Normal					TdWZrrm/ikWBvwwv1KGefg	WR+SJHUAx06cj4S/VqYOIw			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35934	370	3690	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2010	Removal of Encroachments		2360	2296	300	0	0	0	300	0	0	0				2023-10-04 00:00	2023-10-19 00:00		2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-06-01 00:00	2023-06-15 22:00	2023-10-04 00:00	2023-10-19 00:00		PT_Normal					OVj3YRtCo0mTVfRqChDjpw	XV2nLPtJdUK6Mg2SmDQilA			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35935	370	3686	640	0	N	1	N	N	CP_Drtn	TT_FinMile	DT_FixedDrtn	TK_NotStart	A2100	Completion of Service Road		104	104	0	0	0	0	0	0	0	0				2023-12-15 00:00	2023-12-15 00:00		2023-12-09 18:00	2023-12-09 18:00	2023-12-09 18:00	2023-12-09 18:00	2023-12-09 18:00	2023-12-09 18:00	2023-12-15 00:00	2023-12-15 00:00		PT_Normal					eU1Sc9MkbU+reGaHvXBw4w	p61UbBTCOEyxIxDCfWCaYw			N	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35936	370	3705	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2110	Shifting of Services		64	0	300	0	300	300	300	0	0	0				2023-10-19 00:00	2023-11-03 00:00		2023-10-15 18:00	2023-10-30 18:00	2023-10-15 18:00	2023-10-30 18:00	2023-10-15 18:00	2023-10-30 18:00	2023-10-19 00:00	2023-11-03 00:00		PT_Normal					PpYIXgxhR0+/tgMUmRygBg	XANHYxanek+EBIbGyE7Qhw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35937	370	3705	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2120	Setting Out/Topographic Survey		64	0	100	0	100	100	100	0	0	0				2023-10-24 00:00	2023-10-29 00:00		2023-10-20 20:00	2023-10-25 18:00	2023-10-20 20:00	2023-10-25 18:00	2023-10-20 20:00	2023-10-25 18:00	2023-10-24 00:00	2023-10-29 00:00		PT_Normal					/BFC28X9LkyIaXHjV/poBQ	PGLqb/jJeEaB1N2ApXUD5A			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35938	370	3705	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2140	Preparation of Sub Grade		64	0	400	0	400	400	400	0	0	0				2023-10-31 00:00	2023-11-19 22:00		2023-10-27 20:00	2023-11-16 18:00	2023-10-27 20:00	2023-11-16 18:00	2023-10-27 20:00	2023-11-16 18:00	2023-10-31 00:00	2023-11-19 22:00		PT_Normal					iDla9UfRn0mpXFp7KWA2kA	o556OUzp1kq7n+pUZtDgRw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35939	370	3705	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2150	Preparation of Sub base		64	0	460	0	460	460	460	0	0	0				2023-11-05 02:00	2023-11-28 00:00		2023-11-01 20:00	2023-11-24 18:00	2023-11-01 20:00	2023-11-24 18:00	2023-11-01 20:00	2023-11-24 18:00	2023-11-05 02:00	2023-11-28 00:00		PT_Normal					vYjStuluK0uN9t8RE19QUA	nYGY/3jcxkuHsonZSL165A			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35940	370	3705	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2160	Preparation of Aggregate base		64	0	320	0	320	320	320	0	0	0				2023-11-14 00:00	2023-11-30 00:00		2023-11-10 20:00	2023-11-26 18:00	2023-11-10 20:00	2023-11-26 18:00	2023-11-10 20:00	2023-11-26 18:00	2023-11-14 00:00	2023-11-30 00:00		PT_Normal					88ETmOarBE+5qWZZyiu8xw	7Vxd1wxg50i+R12f31wUjw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35941	370	3705	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2170	Laying of Asphltic Base Course incl prime Coat		64	0	200	0	200	200	200	0	0	0				2023-12-02 00:00	2023-12-12 00:00		2023-11-28 20:00	2023-12-08 18:00	2023-11-28 20:00	2023-12-08 18:00	2023-11-28 20:00	2023-12-08 18:00	2023-12-02 00:00	2023-12-12 00:00		PT_Normal					f37hMXrqeUCLKvomOyqhrQ	lA/QkPYGU0igm6cTwtyyLQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35942	370	3705	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2180	Laying of Asphaltic Wearing Course incl Tack Coat		64	0	200	0	200	200	200	0	0	0				2023-12-03 02:00	2023-12-13 00:00		2023-11-29 20:00	2023-12-09 18:00	2023-11-29 20:00	2023-12-09 18:00	2023-11-29 20:00	2023-12-09 18:00	2023-12-03 02:00	2023-12-13 00:00		PT_Normal					6RPDFcw+V0Kiuo48BLk9BA	ns9XPFOZw0upX7bImyOOFQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35943	370	3689	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2190	Final Inspection, Snagging and De Snagging		0	0	20	0	0	0	20	0	0	0				2023-12-13 00:00	2023-12-14 00:00		2023-12-13 00:00	2023-12-14 00:00	2023-12-13 00:00	2023-12-14 00:00	2023-12-13 00:00	2023-12-14 00:00	2023-12-13 00:00	2023-12-14 00:00		PT_Normal					GMfIyGLt0kuqD8ha2zhBpA	wt40iWIxy06WDD3YdRJG7w			Y	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35944	370	3689	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2200	Project Handover		0	0	20	0	0	0	20	0	0	0				2023-12-14 00:00	2023-12-15 00:00		2023-12-14 00:00	2023-12-15 00:00	2023-12-14 00:00	2023-12-15 00:00	2023-12-14 00:00	2023-12-15 00:00	2023-12-14 00:00	2023-12-15 00:00		PT_Normal					8SUv8YRacEiZSr+EZm2PKg	rGMs6cuRtUaK0fcNMDBFXw			Y	0	0			2023-06-21 03:00	2023-06-21 03:00	NotPrmUser	NotPrmUser	
+%R	35945	370	3705	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2135	Formation of Embankment from borrow exacvation in Common Material		64	0	340	0	340	340	340	0	0	0				2023-10-28 00:00	2023-11-14 00:00		2023-10-24 20:00	2023-11-10 18:00	2023-10-24 20:00	2023-11-10 18:00	2023-10-24 20:00	2023-11-10 18:00	2023-10-28 00:00	2023-11-14 00:00		PT_Normal					3/OhB8J9lkudV74OJnDMKQ	BSmHiRBP8U+2J9y9EFQKfA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35946	370	3705	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2136	Formation of Embankment from Structural exacvation in Common Material		64	0	340	0	340	340	340	0	0	0				2023-10-28 00:00	2023-11-14 00:00		2023-10-24 20:00	2023-11-10 18:00	2023-10-24 20:00	2023-11-10 18:00	2023-10-24 20:00	2023-11-10 18:00	2023-10-28 00:00	2023-11-14 00:00		PT_Normal					BHhfHk1U1E2fH/AQKxc14g	bKRwoX4Jh0aHcEmxsakryQ			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35947	370	3706	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2217	Shifting of Services		64	0	300	0	300	300	300	0	0	0				2023-10-19 00:00	2023-11-03 00:00		2023-10-15 18:00	2023-10-30 18:00	2023-10-15 18:00	2023-10-30 18:00	2023-10-15 18:00	2023-10-30 18:00	2023-10-19 00:00	2023-11-03 00:00		PT_Normal					qMuxkrjY4UWGHDFEhDrImg	wrjHn874WUypdJUvVX97gg			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35948	370	3706	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2220	Setting Out/Topographic Survey		184	120	100	0	100	100	100	0	0	0				2023-11-02 00:00	2023-11-07 00:00		2023-10-23 20:00	2023-10-28 18:00	2023-10-23 20:00	2023-10-28 18:00	2023-10-23 20:00	2023-10-28 18:00	2023-11-02 00:00	2023-11-07 00:00		PT_Normal					W22FS1kwMkO9fgtUycZWFA	yk3Tp6wwVEa9WH4QQrSc5Q			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35949	370	3706	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2250	Preparation of Sub Grade		64	0	400	0	400	400	400	0	0	0				2023-11-05 02:00	2023-11-25 00:00		2023-11-01 20:00	2023-11-21 18:00	2023-11-01 20:00	2023-11-21 18:00	2023-11-01 20:00	2023-11-21 18:00	2023-11-05 02:00	2023-11-25 00:00		PT_Normal					bfJjuo0S3kGyzRaiPtAvTw	i1zC1yuyQEasgS+doGILSg			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35950	370	3706	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2260	Preparation of Sub base		64	0	400	0	400	400	400	0	0	0				2023-11-10 00:00	2023-11-30 00:00		2023-11-06 20:00	2023-11-26 18:00	2023-11-06 20:00	2023-11-26 18:00	2023-11-06 20:00	2023-11-26 18:00	2023-11-10 00:00	2023-11-30 00:00		PT_Normal					1IoKnLCal0iS42i7W9E7uw	rqIigV/v00CBVpUfH5Jhaw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35951	370	3706	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2270	Preparation of Aggregate base		64	0	320	0	320	320	320	0	0	0				2023-11-19 02:00	2023-12-05 00:00		2023-11-15 20:00	2023-12-01 18:00	2023-11-15 20:00	2023-12-01 18:00	2023-11-15 20:00	2023-12-01 18:00	2023-11-19 02:00	2023-12-05 00:00		PT_Normal					L+9hu1dV+EiI5YskWAjelA	PQT0sR5zFUuLGflSulnX5A			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35952	370	3706	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2280	Laying of Asphltic Base Course incl Prime Coat		64	0	200	0	200	200	200	0	0	0				2023-12-02 00:00	2023-12-12 00:00		2023-11-28 20:00	2023-12-08 18:00	2023-11-28 20:00	2023-12-08 18:00	2023-11-28 20:00	2023-12-08 18:00	2023-12-02 00:00	2023-12-12 00:00		PT_Normal					6hBnB3NGW0mriONb3jZMEw	zOAZKrdgdky+ljC5AaN2JA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35953	370	3706	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2290	Laying of Asphaltic Wearing Course incl tack coat		64	0	200	0	200	200	200	0	0	0				2023-12-03 02:00	2023-12-13 00:00		2023-11-29 20:00	2023-12-09 18:00	2023-11-29 20:00	2023-12-09 18:00	2023-11-29 20:00	2023-12-09 18:00	2023-12-03 02:00	2023-12-13 00:00		PT_Normal					0HGY3V1lQkCWLA5bXHqX5A	OTXNJJ8nf0aLeFQRQRJAZw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35954	370	3706	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2230	Formation of Embankment from borrow exacvation in Common Material		64	0	340	0	340	340	340	0	0	0				2023-11-03 00:00	2023-11-19 22:00		2023-10-30 20:00	2023-11-16 18:00	2023-10-30 20:00	2023-11-16 18:00	2023-10-30 20:00	2023-11-16 18:00	2023-11-03 00:00	2023-11-19 22:00		PT_Normal					vOzrkcmL80+8A7uiHfhZ0w	phdQnF/dJ0C4/BxbSZa8fw			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35955	370	3706	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2240	Formation of Embankment from Structural exacvation in Common Material		64	0	340	0	340	340	340	0	0	0				2023-11-03 00:00	2023-11-19 22:00		2023-10-30 20:00	2023-11-16 18:00	2023-10-30 20:00	2023-11-16 18:00	2023-10-30 20:00	2023-11-16 18:00	2023-11-03 00:00	2023-11-19 22:00		PT_Normal					S6TajaTuAUiJsWrtBARlng	WY39cfu7UE6KbppmtkkMUA			N	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35956	370	3719	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1845	Reinforcement and Concrete pouring of Approach Slab		0	0	140	0	140	140	140	0	0	0				2023-11-14 00:00	2023-11-21 00:00		2023-11-14 00:00	2023-11-21 00:00	2023-11-14 00:00	2023-11-21 00:00	2023-11-14 00:00	2023-11-21 00:00	2023-11-14 00:00	2023-11-21 00:00		PT_Normal					1vKGKx/j/E6syf3XUp3EpQ	MDHKVuPEnkORCodWL5qikw			Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%R	35957	370	3704	640	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2300	Diversion Works (in segments)		0	0	420	0	420	420	420	0	0	0				2023-06-15 02:00	2023-07-09 00:00		2023-06-15 02:00	2023-07-09 00:00	2023-06-15 02:00	2023-07-09 00:00	2023-06-15 02:00	2023-07-09 00:00	2023-06-15 02:00	2023-07-09 00:00		PT_Normal					Be72CaNxCE+ZIqw84PXMuA				Y	0	0			2023-06-21 03:00	2023-07-07 02:58	NotPrmUser	NotPrmUser	
+%T	ACTVCODE
+%F	actv_code_id	parent_actv_code_id	actv_code_type_id	actv_code_name	short_name	seq_num	color	total_assignments
+%R	3174		205	Bill no1- EarthWork	B1	0	FF8080	8
+%R	3175		205	Bill no 2- Subbase and Base Course	B2	100	FF0000	6
+%R	3176		205	Bill no 3- Surface Course and Pavement	B3	101	0080FF	1
+%R	3177		205	Bill no 4- Structure Flyover	B4	102	8080FF	18
+%R	3178		205	Bill no 5- Retaning Wall & Culverts	B5	103	008000	5
+%R	3179		205	Bill no 6- Ancillary Works	B6	104	FF0080	13
+%R	3180		205	Bill no 7- General Items	B7	105	00FF40	14
+%T	PROJCOST
+%F	cost_item_id	acct_id	pobs_id	cost_type_id	proj_id	task_id	cost_name	po_number	vendor_name	act_cost	cost_per_qty	remain_cost	target_cost	cost_load_type	auto_compute_act_flag	target_qty	qty_name	cost_descr	contract_manager_import
+%R	753				370	35929	(New Expense Item)			0.0000	60924520.0000	60924520.0000	60924520.0000	CL_Uniform	N	1			
+%R	754				370	35930	(New Expense Item)			0.0000	458465606.8200	458465606.8200	458465606.8200	CL_Uniform	N	1			
+%R	755				370	35931	(New Expense Item)			0.0000	173293963.9200	173293963.9200	173293963.9200	CL_Uniform	N	1			
+%R	756				370	35932	(New Expense Item)			0.0000	96575037.9500	96575037.9500	96575037.9500	CL_Uniform	N	1			
+%R	757				370	35845	(New Expense Item)			0.0000	96303452.8200	96303452.8200	96303452.8200	CL_Uniform	N	1			
+%R	758				370	35846	(New Expense Item)			0.0000	282132681.1200	282132681.1200	282132681.1200	CL_Uniform	N	1			
+%R	759				370	35847	(New Expense Item)			0.0000	96303452.8200	96303452.8200	96303452.8200	CL_Uniform	N	1			
+%R	760				370	35848	(New Expense Item)			0.0000	3098875.0500	3098875.0500	3098875.0500	CL_Uniform	N	1			
+%R	761				370	35849	(New Expense Item)			0.0000	246866095.9800	246866095.9800	246866095.9800	CL_Uniform	N	1			
+%R	762				370	35850	(New Expense Item)			0.0000	205598142.7200	205598142.7200	205598142.7200	CL_Uniform	N	1			
+%R	763				370	35851	(New Expense Item)			0.0000	268322403.7500	268322403.7500	268322403.7500	CL_Uniform	N	1			
+%R	764				370	35852	(New Expense Item)			0.0000	30835200.0000	30835200.0000	30835200.0000	CL_Uniform	N	1			
+%R	765				370	35853	(New Expense Item)			0.0000	28012878.0000	28012878.0000	28012878.0000	CL_Uniform	N	1			
+%R	766				370	35854	(New Expense Item)			0.0000	94044227.0400	94044227.0400	94044227.0400	CL_Uniform	N	1			
+%R	767				370	35855	(New Expense Item)			0.0000	45951902.0000	45951902.0000	45951902.0000	CL_Uniform	N	1			
+%R	768				370	35856	(New Expense Item)			0.0000	3350186.4000	3350186.4000	3350186.4000	CL_Uniform	N	1			
+%R	769				370	35956	(New Expense Item)			0.0000	45951902.4200	45951902.4200	45951902.4200	CL_Uniform	N	1			
+%R	770				370	35857	(New Expense Item)			0.0000	32421600.0000	32421600.0000	32421600.0000	CL_Uniform	N	1			
+%R	771				370	35858	(New Expense Item)			0.0000	8892000.0000	8892000.0000	8892000.0000	CL_Uniform	N	1			
+%R	772				370	35869	(New Expense Item)			0.0000	1612217.2800	1612217.2800	1612217.2800	CL_Uniform	N	1			
+%R	773				370	35870	(New Expense Item)			0.0000	6364708.1100	6364708.1100	6364708.1100	CL_Uniform	N	1			
+%R	774				370	35871	(New Expense Item)			0.0000	303175971.9000	303175971.9000	303175971.9000	CL_Uniform	N	1			
+%R	775				370	35872	(New Expense Item)			0.0000	171559973.7000	171559973.7000	171559973.7000	CL_Uniform	N	1			
+%R	776				370	35873	(New Expense Item)			0.0000	422222.3700	422222.3700	422222.3700	CL_Uniform	N	1			
+%R	777				370	35874	(New Expense Item)			0.0000	22800.0000	22800.0000	22800.0000	CL_Uniform	N	1			
+%R	778				370	35875	(New Expense Item)			0.0000	2464484.5000	2464484.5000	2464484.5000	CL_Uniform	N	1			
+%R	779				370	35876	(New Expense Item)			0.0000	18956223.4400	18956223.4400	18956223.4400	CL_Uniform	N	1			
+%R	780				370	35877	(New Expense Item)			0.0000	500334.6100	500334.6100	500334.6100	CL_Uniform	N	1			
+%R	781				370	35878	(New Expense Item)			0.0000	3363164.6000	3363164.6000	3363164.6000	CL_Uniform	N	1			
+%R	782				370	35879	(New Expense Item)			0.0000	11067238.5600	11067238.5600	11067238.5600	CL_Uniform	N	1			
+%R	783				370	35880	(New Expense Item)			0.0000	9486204.4800	9486204.4800	9486204.4800	CL_Uniform	N	1			
+%R	784				370	35881	(New Expense Item)			0.0000	39016306.5900	39016306.5900	39016306.5900	CL_Uniform	N	1			
+%R	785				370	35884	(New Expense Item)			0.0000	41243652.6900	41243652.6900	41243652.6900	CL_Uniform	N	1			
+%R	786				370	35882	(New Expense Item)			0.0000	8831680.8900	8831680.8900	8831680.8900	CL_Uniform	N	1			
+%R	787				370	35883	(New Expense Item)			0.0000	3885177.0000	3885177.0000	3885177.0000	CL_Uniform	N	1			
+%R	788				370	35945	(New Expense Item)			0.0000	18956223.4400	18956223.4400	18956223.4400	CL_Uniform	N	1			
+%R	789				370	35946	(New Expense Item)			0.0000	500334.6100	500334.6100	500334.6100	CL_Uniform	N	1			
+%R	790				370	35938	(New Expense Item)			0.0000	3363164.6000	3363164.6000	3363164.6000	CL_Uniform	N	1			
+%R	791				370	35939	(New Expense Item)			0.0000	11067238.5600	11067238.5600	11067238.5600	CL_Uniform	N	1			
+%R	792				370	35940	(New Expense Item)			0.0000	9486204.4800	9486204.4800	9486204.4800	CL_Uniform	N	1			
+%R	793				370	35941	(New Expense Item)			0.0000	39016306.5900	39016306.5900	39016306.5900	CL_Uniform	N	1			
+%R	794				370	35942	(New Expense Item)			0.0000	41243652.6900	41243652.6900	41243652.6900	CL_Uniform	N	1			
+%R	795				370	35954	(New Expense Item)			0.0000	18956223.4400	18956223.4400	18956223.4400	CL_Uniform	N	1			
+%R	796				370	35955	(New Expense Item)			0.0000	500334.6100	500334.6100	500334.6100	CL_Uniform	N	1			
+%R	797				370	35949	(New Expense Item)			0.0000	3363164.6000	3363164.6000	3363164.6000	CL_Uniform	N	1			
+%R	798				370	35950	(New Expense Item)			0.0000	11067238.5600	11067238.5600	11067238.5600	CL_Uniform	N	1			
+%R	799				370	35951	(New Expense Item)			0.0000	9486204.4800	9486204.4800	9486204.4800	CL_Uniform	N	1			
+%R	800				370	35952	(New Expense Item)			0.0000	39016306.5900	39016306.5900	39016306.5900	CL_Uniform	N	1			
+%R	801				370	35953	(New Expense Item)			0.0000	41243652.6900	41243652.6900	41243652.6900	CL_Uniform	N	1			
+%R	802				370	35906	(New Expense Item)			0.0000	2213000.0000	2213000.0000	2213000.0000	CL_Uniform	N	1			
+%R	803				370	35907	(New Expense Item)			0.0000	60303311.9100	60303311.9100	60303311.9100	CL_Uniform	N	1			
+%R	804				370	35908	(New Expense Item)			0.0000	33242553.9000	33242553.9000	33242553.9000	CL_Uniform	N	1			
+%R	805				370	35909	(New Expense Item)			0.0000	18812005.2600	18812005.2600	18812005.2600	CL_Uniform	N	1			
+%R	806				370	35911	(New Expense Item)			0.0000	7695000.0000	7695000.0000	7695000.0000	CL_Uniform	N	1			
+%R	807				370	35910	(New Expense Item)			0.0000	10334545.2000	10334545.2000	10334545.2000	CL_Uniform	N	1			
+%R	808				370	35899	(New Expense Item)			0.0000	159600.0000	159600.0000	159600.0000	CL_Uniform	N	1			
+%R	809				370	35900	(New Expense Item)			0.0000	906984.0000	906984.0000	906984.0000	CL_Uniform	N	1			
+%R	810				370	35901	(New Expense Item)			0.0000	177498.0000	177498.0000	177498.0000	CL_Uniform	N	1			
+%R	811				370	35902	(New Expense Item)			0.0000	695400.0000	695400.0000	695400.0000	CL_Uniform	N	1			
+%R	812				370	35903	(New Expense Item)			0.0000	2954000.0000	2954000.0000	2954000.0000	CL_Uniform	N	1			
+%R	813				370	35904	(New Expense Item)			0.0000	738500.0000	738500.0000	738500.0000	CL_Uniform	N	1			
+%R	814				370	35905	(New Expense Item)			0.0000	1023100.0000	1023100.0000	1023100.0000	CL_Uniform	N	1			
+%R	815				370	35885	(New Expense Item)			0.0000	2006400.0000	2006400.0000	2006400.0000	CL_Uniform	N	1			
+%R	816				370	35887	(New Expense Item)			0.0000	1805760.0000	1805760.0000	1805760.0000	CL_Uniform	N	1			
+%R	817				370	35888	(New Expense Item)			0.0000	7387200.0000	7387200.0000	7387200.0000	CL_Uniform	N	1			
+%R	818				370	35889	(New Expense Item)			0.0000	2097600.0000	2097600.0000	2097600.0000	CL_Uniform	N	1			
+%R	819				370	35891	(New Expense Item)			0.0000	3465600.0000	3465600.0000	3465600.0000	CL_Uniform	N	1			
+%R	820				370	35892	(New Expense Item)			0.0000	1915200.0000	1915200.0000	1915200.0000	CL_Uniform	N	1			
+%R	821				370	35893	(New Expense Item)			0.0000	4104000.0000	4104000.0000	4104000.0000	CL_Uniform	N	1			
+%R	822				370	35894	(New Expense Item)			0.0000	20520000.0000	20520000.0000	20520000.0000	CL_Uniform	N	1			
+%R	823				370	35895	(New Expense Item)			0.0000	18240000.0000	18240000.0000	18240000.0000	CL_Uniform	N	1			
+%R	824				370	35896	(New Expense Item)			0.0000	17955000.0000	17955000.0000	17955000.0000	CL_Uniform	N	1			
+%R	825				370	35897	(New Expense Item)			0.0000	2462400.0000	2462400.0000	2462400.0000	CL_Uniform	N	1			
+%R	826				370	35898	(New Expense Item)			0.0000	2462400.0000	2462400.0000	2462400.0000	CL_Uniform	N	1			
+%R	827				370	35886	(New Expense Item)			0.0000	1805760.0000	1805760.0000	1805760.0000	CL_Uniform	N	1			
+%R	828				370	35890	(New Expense Item)			0.0000	7387200.0000	7387200.0000	7387200.0000	CL_Uniform	N	1			
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	comments	float_path	aref	arls
+%R	1231	35886	35885	370	370	PR_SS	20			2023-06-02 00:00	2023-05-29 00:00
+%R	1232	35890	35889	370	370	PR_FS	0			2023-06-20 00:00	2023-07-12 00:00
+%R	1233	35893	35892	370	370	PR_SS	0			2023-06-01 00:00	2023-06-05 00:00
+%R	1234	35896	35895	370	370	PR_SS	0			2023-06-01 00:00	2023-05-30 00:00
+%R	1235	35924	35923	370	370	PR_SS	20			2023-06-06 00:00	2023-11-10 00:00
+%R	1236	35926	35925	370	370	PR_SS	20			2023-06-17 22:00	2023-11-22 00:00
+%R	1237	35889	35888	370	370	PR_SS	0			2023-06-01 00:00	2023-06-10 00:00
+%R	1238	35896	35894	370	370	PR_SS	0			2023-06-01 00:00	2023-05-30 00:00
+%R	1239	35929	35868	370	370	PR_SS	0			2023-06-01 00:00	2023-06-02 00:00
+%R	1240	35930	35929	370	370	PR_SS	20			2023-06-17 22:00	2023-05-19 00:00
+%R	1241	35931	35930	370	370	PR_SS	60			2023-06-21 00:00	2023-05-20 00:00
+%R	1242	35932	35930	370	370	PR_SS	280			2023-07-05 00:00	2023-05-26 00:00
+%R	1243	35845	35932	370	370	PR_SS	20			2023-07-11 00:00	2023-06-09 00:00
+%R	1244	35915	35914	370	370	PR_SS	0			2023-06-01 00:00	2023-11-23 00:00
+%R	1245	35920	35887	370	370	PR_SS	0			2023-06-01 00:00	2023-11-25 00:00
+%R	1246	35937	35936	370	370	PR_SS	100			2023-10-20 18:00	2023-10-04 00:00
+%R	1247	35939	35938	370	370	PR_SS	100			2023-11-01 18:00	2023-10-11 00:00
+%R	1248	35940	35939	370	370	PR_SS	180			2023-11-10 18:00	2023-10-13 00:00
+%R	1249	35941	35940	370	370	PR_SS	360			2023-11-28 18:00	2023-10-29 02:00
+%R	1250	35927	35868	370	370	PR_SS	320			2023-06-16 22:00	2023-05-15 00:00
+%R	1251	35928	35927	370	370	PR_SS	0			2023-06-17 02:00	2023-04-28 00:00
+%R	1252	35876	35875	370	370	PR_SS	100			2023-08-30 18:00	2023-08-12 00:00
+%R	1253	35877	35875	370	370	PR_SS	100			2023-08-30 18:00	2023-08-16 00:00
+%R	1254	35878	35876	370	370	PR_SS	420			2023-09-20 18:00	2023-08-07 00:00
+%R	1255	35878	35877	370	370	PR_SS	360			2023-09-17 18:00	2023-08-10 00:00
+%R	1256	35879	35878	370	370	PR_SS	20			2023-09-21 18:00	2023-09-03 02:00
+%R	1257	35880	35879	370	370	PR_SS	40			2023-09-23 18:00	2023-09-04 00:00
+%R	1258	35906	35881	370	370	PR_SS	0			2023-11-01 20:00	2023-11-18 00:00
+%R	1259	35907	35884	370	370	PR_SS	80			2023-11-25 00:00	2023-11-10 00:00
+%R	1260	35908	35884	370	370	PR_SS	120			2023-11-26 22:00	2023-11-10 00:00
+%R	1261	35911	35909	370	370	PR_SS	60			2023-12-01 00:00	2023-11-13 00:00
+%R	1262	35903	35884	370	370	PR_FS	40			2023-12-03 22:00	2023-12-02 00:00
+%R	1263	35904	35884	370	370	PR_FS	40			2023-12-03 22:00	2023-12-02 00:00
+%R	1264	35905	35884	370	370	PR_FS	40			2023-12-03 22:00	2023-12-02 00:00
+%R	1265	35943	35905	370	370	PR_FS	0			2023-12-13 00:00	2023-12-13 00:00
+%R	1266	35943	35904	370	370	PR_FS	0			2023-12-13 00:00	2023-12-13 00:00
+%R	1267	35943	35903	370	370	PR_FS	0			2023-12-13 00:00	2023-12-13 00:00
+%R	1268	35943	35902	370	370	PR_FS	0			2023-12-10 18:00	2023-12-13 00:00
+%R	1269	35943	35901	370	370	PR_FS	0			2023-12-10 18:00	2023-12-13 00:00
+%R	1270	35943	35900	370	370	PR_FS	0			2023-12-10 18:00	2023-12-13 00:00
+%R	1271	35943	35899	370	370	PR_FS	0			2023-12-10 18:00	2023-12-13 00:00
+%R	1272	35943	35911	370	370	PR_FS	0			2023-12-13 00:00	2023-12-13 00:00
+%R	1273	35943	35884	370	370	PR_FS	0			2023-12-02 00:00	2023-12-13 00:00
+%R	1274	35944	35943	370	370	PR_FS	0			2023-12-14 00:00	2023-12-14 00:00
+%R	1275	35846	35932	370	370	PR_SS	380			2023-07-30 22:00	2023-06-02 00:00
+%R	1276	35870	35869	370	370	PR_SS	80			2023-06-25 22:00	2023-06-12 06:00
+%R	1277	35871	35870	370	370	PR_SS	64			2023-07-02 06:00	2023-06-13 06:00
+%R	1278	35872	35871	370	370	PR_SS	72			2023-07-05 18:00	2023-05-24 10:00
+%R	1279	35873	35872	370	370	PR_SS	660			2023-08-09 18:00	2023-05-29 00:00
+%R	1280	35855	35854	370	370	PR_SS	80			2023-10-08 00:00	2023-08-29 00:00
+%R	1281	35856	35855	370	370	PR_SS	600			2023-11-07 00:00	2023-09-10 02:00
+%R	1282	35847	35846	370	370	PR_FF	80			2023-08-04 00:00	2023-09-15 00:00
+%R	1283	35849	35848	370	370	PR_SS	8			2023-06-18 10:00	2023-07-14 04:00
+%R	1284	35850	35849	370	370	PR_SS	48			2023-06-20 18:00	2023-06-16 14:00
+%R	1285	35851	35850	370	370	PR_SS	0			2023-06-20 20:00	2023-07-07 00:00
+%R	1286	35852	35847	370	370	PR_FF	140			2023-09-18 00:00	2023-09-19 00:00
+%R	1287	35853	35852	370	370	PR_FS	0			2023-09-26 00:00	2023-09-27 00:00
+%R	1288	35854	35853	370	370	PR_SS	140			2023-10-04 00:00	2023-08-27 02:00
+%R	1289	35938	35945	370	370	PR_SS	60			2023-10-27 18:00	2023-10-11 00:00
+%R	1290	35938	35946	370	370	PR_SS	60			2023-10-27 18:00	2023-10-11 00:00
+%R	1291	35945	35937	370	370	PR_SS	80			2023-10-24 18:00	2023-10-19 00:00
+%R	1292	35946	35937	370	370	PR_SS	80			2023-10-24 18:00	2023-10-19 00:00
+%R	1293	35869	35929	370	370	PR_SS	0			2023-06-17 02:00	2023-05-27 04:00
+%R	1294	35875	35873	370	370	PR_SS	300			2023-08-25 18:00	2023-07-26 00:00
+%R	1295	35910	35908	370	370	PR_SS	100			2023-12-02 00:00	2023-11-15 00:00
+%R	1296	35909	35907	370	370	PR_SS	60			2023-11-28 00:00	2023-11-13 00:00
+%R	1297	35911	35907	370	370	PR_SS	0			2023-11-25 00:00	2023-11-19 02:00
+%R	1298	35899	35881	370	370	PR_SS	320			2023-11-17 18:00	2023-10-17 00:00
+%R	1299	35900	35899	370	370	PR_SS	0			2023-11-17 20:00	2023-10-28 00:00
+%R	1300	35901	35900	370	370	PR_SS	0			2023-11-17 20:00	2023-10-28 00:00
+%R	1301	35902	35901	370	370	PR_SS	0			2023-11-17 20:00	2023-10-28 00:00
+%R	1302	35950	35949	370	370	PR_SS	100			2023-11-06 18:00	2023-10-16 00:00
+%R	1303	35951	35950	370	370	PR_SS	180			2023-11-15 18:00	2023-10-21 00:00
+%R	1304	35952	35951	370	370	PR_SS	260			2023-11-28 18:00	2023-11-03 00:00
+%R	1305	35953	35952	370	370	PR_SS	20			2023-11-29 18:00	2023-11-22 00:00
+%R	1306	35949	35954	370	370	PR_SS	40			2023-11-01 18:00	2023-10-17 00:00
+%R	1307	35949	35955	370	370	PR_SS	40			2023-11-01 18:00	2023-10-17 00:00
+%R	1308	35954	35948	370	370	PR_SS	20			2023-10-24 18:00	2023-10-28 00:00
+%R	1309	35955	35948	370	370	PR_SS	20			2023-10-24 18:00	2023-10-28 00:00
+%R	1310	35947	35934	370	370	PR_SS	300			2023-06-15 22:00	2023-09-18 00:00
+%R	1311	35935	35953	370	370	PR_FS	0			2023-12-09 18:00	2023-12-15 00:00
+%R	1312	35935	35942	370	370	PR_FS	0			2023-12-09 18:00	2023-12-15 00:00
+%R	1313	35942	35941	370	370	PR_SS	20			2023-11-29 18:00	2023-11-22 00:00
+%R	1314	35929	35928	370	370	PR_SS	0			2023-06-17 02:00	2023-04-28 00:00
+%R	1315	35848	35928	370	370	PR_SS	20			2023-06-17 22:00	2023-06-05 04:00
+%R	1316	35854	35928	370	370	PR_FS	0			2023-08-06 00:00	2023-10-04 00:00
+%R	1317	35869	35928	370	370	PR_SS	0			2023-06-17 02:00	2023-05-06 04:00
+%R	1318	35874	35928	370	370	PR_FS	0			2023-08-06 00:00	2023-12-13 00:00
+%R	1319	35878	35928	370	370	PR_FS	0			2023-08-06 00:00	2023-09-23 00:00
+%R	1320	35907	35928	370	370	PR_FS	0			2023-08-06 00:00	2023-11-25 00:00
+%R	1321	35899	35928	370	370	PR_FS	0			2023-08-06 00:00	2023-11-20 00:00
+%R	1322	35903	35928	370	370	PR_FS	0			2023-08-06 00:00	2023-12-04 00:00
+%R	1323	35922	35921	370	370	PR_SS	60			2023-06-04 00:00	2023-11-01 00:00
+%R	1324	35853	35933	370	370	PR_FS	0			2023-06-15 22:00	2023-09-27 00:00
+%R	1325	35857	35884	370	370	PR_SS	140			2023-11-28 00:00	2023-11-10 00:00
+%R	1326	35943	35857	370	370	PR_FS	0			2023-12-10 00:00	2023-12-13 00:00
+%R	1327	35858	35884	370	370	PR_FS	60			2023-12-05 00:00	2023-12-06 00:00
+%R	1328	35943	35858	370	370	PR_FS	0			2023-12-13 00:00	2023-12-13 00:00
+%R	1329	35859	35931	370	370	PR_FS	0			2023-07-21 00:00	2023-12-15 00:00
+%R	1330	35860	35845	370	370	PR_FS	0			2023-08-18 00:00	2023-12-15 00:00
+%R	1331	35861	35847	370	370	PR_FS	0			2023-09-19 00:00	2023-12-15 00:00
+%R	1332	35862	35855	370	370	PR_FS	0			2023-11-12 00:00	2023-12-15 00:00
+%R	1333	35863	35872	370	370	PR_FS	0			2023-08-13 18:00	2023-12-15 00:00
+%R	1334	35864	35877	370	370	PR_FS	0			2023-09-24 18:00	2023-12-15 00:00
+%R	1335	35864	35876	370	370	PR_FS	0			2023-09-24 18:00	2023-12-15 00:00
+%R	1336	35865	35881	370	370	PR_FS	0			2023-11-19 18:00	2023-12-15 00:00
+%R	1337	35866	35884	370	370	PR_FS	0			2023-12-02 00:00	2023-12-15 00:00
+%R	1338	35867	35902	370	370	PR_FS	0			2023-12-10 18:00	2023-12-15 00:00
+%R	1339	35867	35905	370	370	PR_FS	0			2023-12-13 00:00	2023-12-15 00:00
+%R	1340	35867	35904	370	370	PR_FS	0			2023-12-13 00:00	2023-12-15 00:00
+%R	1341	35867	35903	370	370	PR_FS	0			2023-12-13 00:00	2023-12-15 00:00
+%R	1342	35867	35901	370	370	PR_FS	0			2023-12-10 18:00	2023-12-15 00:00
+%R	1343	35867	35900	370	370	PR_FS	0			2023-12-10 18:00	2023-12-15 00:00
+%R	1344	35867	35899	370	370	PR_FS	0			2023-12-10 18:00	2023-12-15 00:00
+%R	1345	35882	35928	370	370	PR_SS	0			2023-06-17 02:00	2023-09-03 02:00
+%R	1346	35883	35928	370	370	PR_SS	0			2023-06-17 02:00	2023-09-03 02:00
+%R	1347	35945	35882	370	370	PR_FS	0			2023-10-23 18:00	2023-10-28 00:00
+%R	1348	35946	35882	370	370	PR_FS	0			2023-10-23 18:00	2023-10-28 00:00
+%R	1349	35954	35883	370	370	PR_FS	0			2023-10-23 18:00	2023-11-03 00:00
+%R	1350	35955	35883	370	370	PR_FS	0			2023-10-23 18:00	2023-11-03 00:00
+%R	1351	35943	35915	370	370	PR_FS	0			2023-06-11 00:00	2023-12-13 00:00
+%R	1352	35943	35916	370	370	PR_FS	0			2023-06-15 22:00	2023-12-13 00:00
+%R	1353	35943	35917	370	370	PR_FS	0			2023-06-11 00:00	2023-12-13 00:00
+%R	1354	35943	35918	370	370	PR_FS	0			2023-06-15 22:00	2023-12-13 00:00
+%R	1355	35943	35919	370	370	PR_FS	0			2023-06-15 22:00	2023-12-13 00:00
+%R	1356	35943	35920	370	370	PR_FS	0			2023-06-11 00:00	2023-12-13 00:00
+%R	1357	35943	35922	370	370	PR_FS	0			2023-06-18 22:00	2023-12-13 00:00
+%R	1358	35943	35924	370	370	PR_FS	0			2023-06-15 22:00	2023-12-13 00:00
+%R	1359	35943	35926	370	370	PR_FS	0			2023-06-28 00:00	2023-12-13 00:00
+%R	1360	35943	35886	370	370	PR_FS	0			2023-12-06 00:00	2023-12-13 00:00
+%R	1361	35943	35890	370	370	PR_FS	0			2023-11-24 00:00	2023-12-13 00:00
+%R	1362	35943	35891	370	370	PR_FS	0			2023-06-15 22:00	2023-12-13 00:00
+%R	1363	35943	35893	370	370	PR_FS	0			2023-11-24 00:00	2023-12-13 00:00
+%R	1364	35943	35896	370	370	PR_FS	0			2023-12-05 00:00	2023-12-13 00:00
+%R	1365	35943	35897	370	370	PR_FS	0			2023-12-05 00:00	2023-12-13 00:00
+%R	1366	35943	35898	370	370	PR_FS	0			2023-12-05 00:00	2023-12-13 00:00
+%R	1367	35954	35947	370	370	PR_FS	0			2023-10-30 18:00	2023-11-03 00:00
+%R	1368	35955	35947	370	370	PR_FS	0			2023-10-30 18:00	2023-11-03 00:00
+%R	1369	35948	35947	370	370	PR_SS	160			2023-10-23 18:00	2023-10-10 00:00
+%R	1370	35943	35906	370	370	PR_FS	0			2023-11-08 18:00	2023-12-13 00:00
+%R	1371	35913	35944	370	370	PR_FS	0			2023-12-15 00:00	2023-12-15 00:00
+%R	1372	35853	35851	370	370	PR_FS	0			2023-08-15 18:00	2023-09-27 00:00
+%R	1373	35852	35851	370	370	PR_FS	0			2023-08-15 18:00	2023-09-18 00:00
+%R	1374	35884	35855	370	370	PR_FS	100			2023-11-17 00:00	2023-11-16 00:00
+%R	1375	35912	35868	370	370	PR_SS	0			2023-06-01 00:00	2023-05-31 00:00
+%R	1376	35923	35922	370	370	PR_SS	20			2023-06-04 22:00	2023-11-04 00:00
+%R	1377	35925	35924	370	370	PR_FS	20			2023-06-16 22:00	2023-12-01 00:00
+%R	1378	35927	35912	370	370	PR_FS	0			2023-06-15 02:00	2023-06-17 02:00
+%R	1379	35851	35850	370	370	PR_FF	300			2023-07-08 20:00	2023-09-03 02:00
+%R	1380	35847	35845	370	370	PR_FF	500			2023-07-26 00:00	2023-08-25 00:00
+%R	1381	35857	35856	370	370	PR_FS	0			2023-11-19 22:00	2023-11-28 00:00
+%R	1382	35858	35857	370	370	PR_FF	60			2023-12-09 00:00	2023-12-10 02:00
+%R	1383	35845	35932	370	370	PR_FF	0			2023-07-10 00:00	2023-08-25 00:00
+%R	1384	35932	35931	370	370	PR_FF	480			2023-07-10 00:00	2023-07-21 00:00
+%R	1385	35956	35855	370	370	PR_SS	740			2023-11-14 00:00	2023-09-02 00:00
+%R	1386	35862	35956	370	370	PR_FS	0			2023-11-21 00:00	2023-12-15 00:00
+%R	1387	35884	35956	370	370	PR_FS	0			2023-11-21 00:00	2023-11-21 00:00
+%R	1388	35929	35957	370	370	PR_SS	40			2023-06-16 22:00	2023-05-24 00:00
+%R	1389	35929	35912	370	370	PR_FS	0			2023-06-15 02:00	2023-06-17 02:00
+%R	1390	35957	35912	370	370	PR_FS	0			2023-06-15 02:00	2023-06-15 02:00
+%R	1391	35869	35957	370	370	PR_SS	140			2023-06-22 00:00	2023-05-26 04:00
+%R	1392	35883	35882	370	370	PR_SS	0			2023-10-15 18:00	2023-10-11 00:00
+%R	1393	35936	35883	370	370	PR_SS	0			2023-10-15 18:00	2023-10-11 00:00
+%R	1394	35882	35875	370	370	PR_SS	1000			2023-10-15 18:00	2023-08-13 02:00
+%R	1395	35947	35936	370	370	PR_SS	0			2023-10-15 18:00	2023-10-04 00:00
+%R	1396	35952	35941	370	370	PR_SS	0			2023-11-28 20:00	2023-11-22 00:00
+%R	1397	35881	35880	370	370	PR_SS	760			2023-11-01 18:00	2023-09-03 02:00
+%R	1398	35941	35880	370	370	PR_FS	0			2023-10-17 18:00	2023-12-02 00:00
+%R	1399	35944	35881	370	370	PR_FS	0			2023-11-19 18:00	2023-12-14 00:00
+%R	1400	35941	35881	370	370	PR_SS	0			2023-11-01 20:00	2023-11-14 00:00
+%R	1401	35874	35875	370	370	PR_SF	-200			2023-08-12 20:00	2023-12-10 02:00
+%R	1402	35884	35881	370	370	PR_SS	220			2023-11-12 18:00	2023-10-23 00:00
+%R	1403	35943	35953	370	370	PR_FS	0			2023-12-09 18:00	2023-12-13 00:00
+%R	1404	35943	35942	370	370	PR_FS	0			2023-12-09 18:00	2023-12-13 00:00
+%R	1405	35943	35910	370	370	PR_FS	0			2023-12-13 00:00	2023-12-13 00:00
+%R	1406	35862	35858	370	370	PR_FS	0			2023-12-13 00:00	2023-12-15 00:00
+%T	TASKACTV
+%F	task_id	actv_code_type_id	actv_code_id	proj_id
+%R	35845	205	3177	370
+%R	35846	205	3177	370
+%R	35847	205	3177	370
+%R	35848	205	3177	370
+%R	35849	205	3177	370
+%R	35850	205	3177	370
+%R	35851	205	3177	370
+%R	35852	205	3177	370
+%R	35853	205	3177	370
+%R	35854	205	3177	370
+%R	35855	205	3177	370
+%R	35856	205	3177	370
+%R	35857	205	3177	370
+%R	35858	205	3177	370
+%R	35869	205	3178	370
+%R	35870	205	3178	370
+%R	35871	205	3178	370
+%R	35872	205	3178	370
+%R	35873	205	3178	370
+%R	35874	205	3174	370
+%R	35875	205	3174	370
+%R	35876	205	3174	370
+%R	35877	205	3174	370
+%R	35878	205	3175	370
+%R	35879	205	3175	370
+%R	35880	205	3175	370
+%R	35881	205	3175	370
+%R	35882	205	3175	370
+%R	35883	205	3175	370
+%R	35884	205	3176	370
+%R	35885	205	3180	370
+%R	35886	205	3180	370
+%R	35887	205	3180	370
+%R	35888	205	3180	370
+%R	35889	205	3180	370
+%R	35890	205	3180	370
+%R	35891	205	3180	370
+%R	35892	205	3180	370
+%R	35893	205	3180	370
+%R	35894	205	3180	370
+%R	35895	205	3180	370
+%R	35896	205	3180	370
+%R	35897	205	3180	370
+%R	35898	205	3180	370
+%R	35899	205	3179	370
+%R	35900	205	3179	370
+%R	35901	205	3179	370
+%R	35902	205	3179	370
+%R	35903	205	3179	370
+%R	35904	205	3179	370
+%R	35905	205	3179	370
+%R	35906	205	3179	370
+%R	35907	205	3179	370
+%R	35908	205	3179	370
+%R	35909	205	3179	370
+%R	35910	205	3179	370
+%R	35911	205	3179	370
+%R	35929	205	3177	370
+%R	35930	205	3177	370
+%R	35931	205	3177	370
+%R	35932	205	3177	370
+%R	35945	205	3174	370
+%R	35946	205	3174	370
+%R	35954	205	3174	370
+%R	35955	205	3174	370
+%E
