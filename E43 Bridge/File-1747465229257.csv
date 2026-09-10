@@ -1,0 +1,172 @@
+Issue Type,Module,Issue,Priority,OS,Testing Type
+Bug,Chat,"Chat - In the chat side bar the last message is not shown along with the other profile information. Additionally, the profiles in the side bar list are not sorted according to the lastest message sent.",Medium,Android,Module Testing
+Bug,Chat,"Chat - The send message form in the Chat (View) is on the top of the screen. Addtionally, there is no option to record voice messages or to attach project references.",Medium,Android,Module Testing
+Bug,Chat,Chat - User can send himself messages.,Medium,Android,Module Testing
+Bug,Chat,Chat - User is not able to send messages. (Message is sent in reality but the mobile app keeps showing it is not sent. And if we delete that message it only gets deleted on the phone.),Medium,Android,Module Testing
+Bug,Check Requests,"Check Requests - The ""Request for"" should be renamed to ""Work details"" in the add check request form.",Medium,Android,Module Testing
+Bug,Check Requests,Check Requests - There should be no option to edit approval flow in the edit check request form.,Medium,Android,Module Testing
+Bug,Check Requests,Check Requests - The nav bar is not consistent with the application.,Medium,Android,Module Testing
+Bug,Check Requests,"Check Requests - All filters are incorrect, please view stories to add correct filters.",Medium,Android,Module Testing
+Bug,Check Requests,Check Requests - Search functionality is missing.,Medium,Android,Module Testing
+Bug,Check Requests,Check Requests - Status and work detail fields are missing in the check request grid page.,Medium,Android,Module Testing
+Bug,Check Requests,Check Requests - Manage workflow button is missing in the manage check request view.,Medium,Android,Module Testing
+Bug,Check Requests,"Check Requests - Additional Information, Attachments, and Share List missing in manage check request page.",Medium,Android,Module Testing
+Bug,Check Requests,Check Requests - General Information fields in manage check request page need to be renamed to the correct names.,Medium,Android,Module Testing
+Bug,Check Requests,Check Requests - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Check Requests,"Check Requests - The submit response option in the check requets does not have the option to add references, attachments, voice messages and photos.",Medium,Android,Module Testing
+Bug,Check Requests,Check Requests - The delete feature should be changed to terminate.,Medium,Android,Module Testing
+Bug,Check Requests,Check Requests - User can not access all additional actions in the list view.,Medium,Android,Module Testing
+Bug,Darwings,Darwings - User can not access any additional actions in the list view.,Medium,Android,Module Testing
+Bug,Documents,Documents - I can see everyone's folders even those that haven't been shared to me.,Medium,Android,Module Testing
+Bug,Documents,Documents - While viewing folders and dcouments in the documents list view the subfolder field is extra for folders and the size field is extra for documents.,Medium,Android,Module Testing
+Bug,Documents,"Documents - In the documents list view make the documents and folders expandable and add information such as version, path and shared with.",Medium,Android,Module Testing
+Bug,Documents,Documents - All additional actions are missing in the documents list view.,Medium,Android,Module Testing
+Bug,Documents,Documents - Unread markers are missing in the documents list view.,Medium,Android,Module Testing
+Bug,Documents,"Documents - Filters are not working. (Please change how filters are applied, make them like they are in the web application.)",Medium,Android,Module Testing
+Bug,Documents,Documents - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Documents,Documents - Groups filter is missing.,Medium,Android,Module Testing
+Bug,Documents,"Documents - The search functionality only works in the current folder, it should search the whole project.",Medium,Android,Module Testing
+Bug,Documents,"Documents - The add button is only present in the home folder in the documents list view, it should be present in all folders.",Medium,Android,Module Testing
+Bug,Documents,Documents - Type and date last updated field missing in the manage folder's page.,Medium,Android,Module Testing
+Bug,Documents,Documents - In the manage document page the version section should show who has uploaded the version and there is no need of the file key.,Medium,Android,Module Testing
+Bug,Documents,Documents - Ask AI feature is missing in documents.,Medium,Android,Module Testing
+Bug,Documents,Documents - Groups should not be seprate in the documents view they should be editable in the edit form only.,Medium,Android,Module Testing
+Bug,Documents,Documents - Date created and date last updated fields missing in the documents view.,Medium,Android,Module Testing
+Bug,Documents,Documents - There is no concept of public and private comments.,Medium,Android,Module Testing
+Bug,Documents,Documents - After creating a folder the form keeps on loading and does not close and upon closing the whole documents module keeps on loading.,Medium,Android,Module Testing
+Bug,Documents,Documents - Editing a folder raises an error that the token is not defined.,Medium,Android,Module Testing
+Bug,Documents,Documents - Deleting a folder while in the manage folder page does not close the folder and does not give any confirmation.,Medium,Android,Module Testing
+Bug,Documents,Documents - After adding a document the add form keeps on loading and does not close.,Medium,Android,Module Testing
+Bug,Documents,Documents - After editing a document the add form keeps on loading and does not close.,Medium,Android,Module Testing
+Bug,Documents,Documents - Deleting a document while in the manage document view does not close the document and does not give any confirmation.,Medium,Android,Module Testing
+Bug,Documents,"Documents - Emailing a document does not close the compose email form once sent. Additionally, the link isn't attached correctly please check how it is attached in the web applicaiton.",Medium,Android,Module Testing
+Bug,Documents,Documents - User is unable to share the doucment an exception occurs. Like you can not add any team members in the share list or change thier permissions.,Medium,Android,Module Testing
+Bug,Documents,Documents - Uploading a new version of the document keeps on loading the document once we upload and does not refresh the page.,Medium,Android,Module Testing
+Bug,Documents,Documents - Sending a reminder does not update the page and does not send the reminder.,Medium,Android,Module Testing
+Bug,Drawing Sets,Drawing Sets - The total drawings field's value is incorrect in the list view and has no header as well.,Medium,Android,Module Testing
+Bug,Drawing Sets,Drawing Sets - Date last updated and created by filter is extra.,Medium,Android,Module Testing
+Bug,Drawing Sets,"Drawing Sets - Drawings filter is missing,",Medium,Android,Module Testing
+Bug,Drawing Sets,"Drawing Sets - Filters are not working. (Please change how filters are applied, make them like they are in the web application.)",Medium,Android,Module Testing
+Bug,Drawing Sets,"Drawing Sets - Everytime I open a drawing set it says ""Drawing set updated successfully"".",Medium,Android,Module Testing
+Bug,Drawing Sets,"Drawing Sets - In the manage drawing sets page Total Drawings and Drawing Names fields are missing, and size field is extra.",Medium,Android,Module Testing
+Bug,Drawing Sets,Drawing Sets - Addtional actions in drawing sets view aren't named correctly.,Medium,Android,Module Testing
+Bug,Drawing Sets,Drawing Sets - Unread markers are missing in the drawing sets list view.,Medium,Android,Module Testing
+Bug,Drawing Sets,Drawing Sets - User can not access any additional actions in the list view.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - In the drawings list view make thedrawings expandable and add information such as version and shared with.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - While viewing drawings in the drawings list view the size is an extra field.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - When we have opened a drawing then the version section should show who has uploaded the version and there is no need of the file key.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - Unread markers are missing in the list view.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - Date last updated fields missing in the manage drawing page. And the order of information is incorrect.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - Type filed is extra in the manage drawing page.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - Groups should not be seprate in the manage drawing page they should be editable in the edit form only.,Medium,Android,Module Testing
+Bug,Drawings,"Drawings - Filters are not working. (Please change how filters are applied, make them like they are in the web application.)",Medium,Android,Module Testing
+Bug,Drawings,Drawings - Date last updated and drawing type filters are extra.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - Groups and shared with filters are missing.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - Sending the drawing as an email turns the screen black and the email is not sent to anyone.,Medium,Android,Module Testing
+Bug,Drawings,Drawings - Sending a reminder does not update the page and does not send the reminder.,Medium,Android,Module Testing
+Bug,Drawings,"Drawings - User can not add comments, and there is no concept of public and private drawings.",Medium,Android,Module Testing
+Bug,Form Templates,Form Templates - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Form Templates,"Form Templates - Filters are incorrect, the groups filter is missing and the date last updated filter is extra.",Medium,Android,Module Testing
+Bug,Form Templates,Form Templates - Filters do not work.,Medium,Android,Module Testing
+Bug,Form Templates,Form Templates - In the form template list view the form template number and type field is missing.,Medium,Android,Module Testing
+Bug,Form Templates,Form Templates - User can not access any additional actions in the list view.,Medium,Android,Module Testing
+Bug,Form Templates,Form Templates - User can not see the share list section in the manage form template page.,Medium,Android,Module Testing
+Bug,Form Templates,Form Templates - Delete action is extra in additional actions of the manage form template page.,Medium,Android,Module Testing
+Bug,Form Templates,Form Templates - While previewing the form template the user has the option to submit the form which is incorrect. There should be no buttons displayed in the template.,Medium,Android,Module Testing
+Bug,Form Templates,Form Templates - Unread markers are missing in the list view.,Medium,Android,Module Testing
+Bug,Home,"Home - Project Timeline, Highlights, and Schedule components are missing in the progress section of the home page.",Medium,Android,Module Testing
+Bug,Home,Home - Project Information component is missing in the overview section of the home page.,Medium,Android,Module Testing
+Bug,Home,Home - After a project was added through the mobile application the home screen throws an expection for all users.,Medium,Android,Module Testing
+Bug,Mail,"Mail - While viewing email lists in inbox, sent and trash lists the senders name is missing.",Medium,Android,Module Testing
+Bug,Mail,Mail - While viewing an email the senders name is always the name of the recipient.,Medium,Android,Module Testing
+Bug,Mail,"Mail - Moving an email to trash says ""senderId is not allowed"".",Medium,Android,Module Testing
+Bug,Mail,Mail - Sending an email does not close the email form once the email is sent. Additionally the email is only sent to one person instead of all the ones selected. Also the way that attachments are attached is wrong.,Medium,Android,Module Testing
+Bug,Mail,Mail - Forwarding an email does not close the email form once the email is sent. Additionally the email is only sent to one person instead of all the ones selected. Also the way that attachments are attached is wrong.,Medium,Android,Module Testing
+Bug,Mail,Mail - Replying to an email does not close the email form once the email is sent. Additionally the email is only sent to one person instead of all the ones selected. Also the way that attachments are attached is wrong.,Medium,Android,Module Testing
+Bug,Mail,"Mail - The user only has the option to add local attachments, user can not add project references.",Medium,Android,Module Testing
+Bug,Projects,Projects - The Nav Bar is missing in the projects module.,Medium,Android,Module Testing
+Bug,Projects,Projects - Project information for each entry is wrong in the projects list view.,Medium,Android,Module Testing
+Bug,Projects,Projects - User can not access all additional actions in the list view.,Medium,Android,Module Testing
+Bug,Projects,Projects - Sequence of fields in the add project form is wrong.,Medium,Android,Module Testing
+Bug,Projects,"Projects - User can not upload contractor's, consultant's or client's logo in the add project form.",Medium,Android,Module Testing
+Bug,Projects,Projects - User can not select the location of a project in the add project form.,Medium,Android,Module Testing
+Bug,Published Forms,"Published Forms - WF ID and Date last updated are extra filters, and Status, Types, Due Date, Assigned To and Groups filters are missing.",Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - Filters do not work.,Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - User can not access any additional actions in the list view.,Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - Published Forms Number and Completion Comments fileds are missing in the published form list view.,Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - Associated Module Name and ID and Associated Published Workflow Name and ID fields missing in the manage published form page.,Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - While adding/editing a published form you can select form templates that havent been shared to you.,Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - Groups and allow resubmission fields are missing and the due date is named target start date in the add/edit published form form.,Medium,Android,Module Testing
+Bug,Published Forms,"Published Forms - Edit published form feature is not working, submitting the form does nothing.",Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - User is unable to update permissions and add or remove members in the sharelist.,Medium,Android,Module Testing
+Bug,Published Forms,"Published Forms - There should be no delete option, it should be replaced with terminate.",Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - There is no option to submit a form from inside the publihsed form module.,Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - User can not view any attachments while viewing a submitted from.,Medium,Android,Module Testing
+Bug,Published Forms,Published Forms - Unread markers are missing in the list view.,Medium,Android,Module Testing
+Bug,Published Workflows,Published Workflows - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Published Workflows,"Published Workflows - Filters are incorrect, name filter is extra. Additionally, the order is also incorrect.",Medium,Android,Module Testing
+Bug,Published Workflows,Published Workflows - Filters do not work. (except name),Medium,Android,Module Testing
+Bug,Published Workflows,Published Workflows - Status and Type fileds missing in the published workflow list view.,Medium,Android,Module Testing
+Bug,Published Workflows,Published Workflows - Associated Module Name and ID field and Activity Log section is missing in the manage published workflow page.,Medium,Android,Module Testing
+Bug,Published Workflows,Published Workflows - Assign a Role and Allow Form Resubmission options are missing for each step while designing a workflow in the add form.,Medium,Android,Module Testing
+Bug,Published Workflows,Published Workflows - User can not access all additional actions in the list view.,Medium,Android,Module Testing
+Bug,Published Workflows,Published Workflows - User can not edit workflows as there is nor allow resubmission field.,Medium,Android,Module Testing
+Bug,Published Workflows,Published Workflows - Remove the delete action from the additional actions in the manage published form page.,Medium,Android,Module Testing
+Bug,Published Workflows,Published Workflows - Unread markers are missing in the list view.,Medium,Android,Module Testing
+Bug,Submittal Packages,"Submittal Packages - Filters are not working. (Please change how filters are applied, make them like they are in the web application.)",Medium,Android,Module Testing
+Bug,Submittal Packages,Submittal Packages - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Submittal Packages,Submittal Packages - Unread markers are missing in the Submittal Packages list page.,Medium,Android,Module Testing
+Bug,Submittal Packages,Submittal Packages - References are missing in manage Submittal Package page.,Medium,Android,Module Testing
+Bug,Submittal Packages,Submittal Packages - Spec Number and Spec Name missing in the manage Submittal Package page.,Medium,Android,Module Testing
+Bug,Submittal Packages,Submittal Packages - Submittals filter is missing and the filters are not in the correct order.,Medium,Android,Module Testing
+Bug,Submittal Packages,"Submittal Packages - The title ""Sequence of Submittals"" should be mentioned once  before we select the list of submittals instead of inside the form with every stage.",Medium,Android,Module Testing
+Bug,Submittal Packages,Submittal Packages - Nothing happens if you download submittal packages.,Medium,Android,Module Testing
+Bug,Submittal Packages,Submittal Packages - User can not access any additional actions in the list view.,Medium,Android,Module Testing
+Bug,Submittals,"Submittals - Filters are not working. (Please change how filters are applied, make them like they are in the web application.)",Medium,Android,Module Testing
+Bug,Submittals,Submittals - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Submittals,Submittals - Unread and pending markers are missing in the Submittal list view.,Medium,Android,Module Testing
+Bug,Submittals,"Submittals - WBS Path, Groups, Subitter, Submitter Submission, Submitter Submission Attachments, Submitter Due Date, Required Date, Required Approval Date, Required on Job Site Date and Lead Time (In days) missing in manage submittal page.",Medium,Android,Module Testing
+Bug,Submittals,Submittals - Submit Submission and Edit Submission features are missing.,Medium,Android,Module Testing
+Bug,Submittals,"Submittals - Expert, Required Date, Required Approval Date, Required on Job Site Date, and Date Created filters are missing and additionally the order of the filters is also incorrect.",Medium,Android,Module Testing
+Bug,Submittals,Submittals - Description is named Workflow Description in the add submittal form.,Medium,Android,Module Testing
+Bug,Submittals,"Submittals - Submitter field is missing in the add subnmittal form, additionally there is no option to add or edit the sharelist while adding a submittal.",Medium,Android,Module Testing
+Bug,Submittals,Submittals - Error incoming that user can not add the submittal as the submitterID is missing.,Medium,Android,Module Testing
+Bug,Submittals,"Submittals - The submit response option in the submittals does not have the option to add references, attachments, voice messages and photos.",Medium,Android,Module Testing
+Bug,Submittals,Submittals - The edit functionality is not working.,Medium,Android,Module Testing
+Bug,Submittals,Submittals - Download Submittal is not working it says failed to fetch URL.,Medium,Android,Module Testing
+Bug,Submittals,Submittals - User is unable to update permissions and add or remove members in the sharelist.,Medium,Android,Module Testing
+Bug,Submittals,Submittals - Manage workflow button is missing in the manage submittal page.,Medium,Android,Module Testing
+Bug,Submittals,Submittals - User can not access any additional actions in the list view.,Medium,Android,Module Testing
+Bug,Teams,Teams - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Teams,"Teams - Filters are not working. (Please change how filters are applied, make them like they are in the web application.)",Medium,Android,Module Testing
+Bug,Teams,"Teams - The input validaiton for the first name and last name in the add team member form is incorrect, please coordinate from the web application.",Medium,Android,Module Testing
+Bug,Teams,Teams - The title option in the add team member form is not loading any previous titles.,Medium,Android,Module Testing
+Bug,Teams,Teams - Permissions in the edit team member form are not loading.,Medium,Android,Module Testing
+Bug,Teams,Teams - View team members list does not include company name and all the additional actions mentioned.,Medium,Android,Module Testing
+Bug,Teams,Teams - View team members does not include project essential's and schedule components additionally the additional actions are not named correctly.,Medium,Android,Module Testing
+Bug,Teams,Teams - Deleting a person does delete the person but keeps on loading the teams screen afterwards untill you logout and login again.,Medium,Android,Module Testing
+Bug,WBS,WBS - WBS Nav Bar is missing in the WBS module.,Medium,Android,Module Testing
+Bug,WBS,"WBS - WBS Task view is missing the status, assigned to, predecessors and the successors fields and some additional actions are missing. (Some fields need to be named correctly as well.)",Medium,Android,Module Testing
+Bug,WBS,WBS - Start and stop WBS task features are missing.,Medium,Android,Module Testing
+Bug,WBS,WBS - Actual start date and end date are compulsory in the add WBS form.,Medium,Android,Module Testing
+Bug,WBS,WBS - Add WBS task form keeps on loading after you submit but does not close. Additionally the newly added tasks can not be opened.,Medium,Android,Module Testing
+Bug,WBS,WBS - Edit WBS task form keeps on loading after you submit but does not close.,Medium,Android,Module Testing
+Bug,WBS,"WBS - If the user deletes a WBS task it says ""Some error occured"".",Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - User can not access all additional actions in the list view.,Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - The filter option should have a two step process.,Medium,Android,Module Testing
+Bug,Workflow Templates,"Workflow Templates - Filters are incorrect, name filter is extra.",Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - Filters do not work. (except name),Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - Workflow Template Number and Type fields are missing in the workflow template list view.,Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - Date Last Updated is missing in manage workflow template page.,Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - The name heading in the manage workflow template page should be renamed to Workflow.,Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - In there add form the module filed should not have an option to add more modules.,Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - Assign a Role and Allow Form Resubmission options are missing for each step while designing a workflow in the add form.,Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - User can not access all additional actions in the list view.,Medium,Android,Module Testing
+Bug,Workflow Templates,Workflow Templates - Unread markers are missing in the list view.,Medium,Android,Module Testing
+Bug,Workspace Layer,Workspace Layer - User can not change data plain's products in the side bar.,Medium,Android,Module Testing
+Bug,Workspace Layer,Workspace Layer - The side bar does not show blue markers for unread and red markers for pending.,Medium,Android,Module Testing
+Bug,Workspace Layer,Workspace Layer - The sequence of module names in the sidebar is not consistent with the web.,Medium,Android,Module Testing
+Bug,Workspace Layer,"Workspace Layer - The bottom bar shows incorrect fileds, it should show Chat and Mail instead of WBS and RFA.",Medium,Android,Module Testing
+Bug,Workspace Layer,Workspace Layer - Data Plain's assistant is missing.,Medium,Android,Module Testing
